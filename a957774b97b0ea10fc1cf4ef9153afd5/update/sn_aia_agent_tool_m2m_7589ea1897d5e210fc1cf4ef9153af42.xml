@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="CPA | Teams Headset Provisioning Agent">0cdbbd1c9791e210fc1cf4ef9153af73</agent>
+        <description>Provision Teams Headset to the employee by passing the onboarding request number as the 'task_num' and the new hire's sys_id as the 'user_sys_id'.</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Provision Teams Headset</name>
+        <output_transformation_strategy>none</output_transformation_strategy>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-30 07:07:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7589ea1897d5e210fc1cf4ef9153af42</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Provision Teams Headset</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_7589ea1897d5e210fc1cf4ef9153af42</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 07:11:29</sys_updated_on>
+        <tool display_value="Provision Teams Headset">7d89ea1897d5e210fc1cf4ef9153af3f</tool>
+        <tool_attributes>{}</tool_attributes>
+    </sn_aia_agent_tool_m2m>
+</record_update>

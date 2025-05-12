@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"eae11cd0472de650873506f1d16d43e1"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>d6e11cd0472de650873506f1d16d43aa</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic_small</model>
+        <name>Humanize</name>
+        <parent/>
+        <prompt>Summarize and pretend you are the human executing the action for any named person in context, prefix with 'I have action, done etc'.
+Keep it as concise as possible persisting human-tone and never lose context details.
+Just use 1 bullet and no more than 15 words.
+Only output the bulleted results, do not provide any subheading or title.
+Keep language in layman and simple terms, use active voice only, avoid repetition of words, change up sentences and inject emotion into each bullet with emojis. 
+For each bullet, only include the actions and if there are request numbers, only include those prefixed with REQ, do not show the RITM numbers.
+Remember this is for a professional business workplace.
+If there are any new lines, bullet it.
+
+Work with this '{{text}}'.</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>31518</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>archived</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 06:20:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ee11cd0472de650873506f1d16d43b3</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>d6e11cd0472de650873506f1d16d43aa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_generative_ai_config_2ee11cd0472de650873506f1d16d43b3</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:07:55</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

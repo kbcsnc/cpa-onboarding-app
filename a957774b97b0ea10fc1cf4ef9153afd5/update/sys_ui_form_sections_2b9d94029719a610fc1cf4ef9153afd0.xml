@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2b9d94029719a610fc1cf4ef9153afd0" sys_domain="global" table="x_snc_cpa_onboar_0_onboard_req" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e79dd4029719a610fc1cf4ef9153aff3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cpa_onboar_0_onboard_req" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">2b9d94029719a610fc1cf4ef9153afd0</sys_ui_form>
+            <sys_ui_section caption="Onboarding Request" display_value="Onboarding Request" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">239dd4029719a610fc1cf4ef9153aff2</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 09:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8488344a97d9a610fc1cf4ef9153af8b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cpa_onboar_0_onboard_req" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">2b9d94029719a610fc1cf4ef9153afd0</sys_ui_form>
+            <sys_ui_section caption="Onboarding Profile" display_value="Onboarding Profile" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">c888344a97d9a610fc1cf4ef9153af87</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 09:28:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 09:29:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54f9f80e97d9a610fc1cf4ef9153afa6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cpa_onboar_0_onboard_req" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">2b9d94029719a610fc1cf4ef9153afd0</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">98f9f80e97d9a610fc1cf4ef9153afa3</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 09:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_cpa_onboar_0_onboard_req</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b9d94029719a610fc1cf4ef9153afd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cpa_onboar_0_onboard_req</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2b9d94029719a610fc1cf4ef9153afd0</sys_update_name>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace CPA  Onboarding Application 0" name="workspace-cpa--onboarding-application-0">989d10022d19a6103d1f885ed519b963</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a248a16797386e10fc1cf4ef9153af4b" label="Onboarding Matrix" max_length="40" name="x_snc_cpa_onboar_0_onboarding_matrix" text_index="true" type="collection">
+        <element choice="1" label="Employee Type" max_length="40" name="employee_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Perm" sequence="0" value="perm"/>
+                <element inactive_on_update="false" label="Non-Perm" sequence="1" value="non_perm"/>
+            </choice>
+        </element>
+        <element label="Port" max_length="32" name="port" reference="x_snc_cpa_onboar_0_airport_code" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;if (!current.onboarding_item.nil() &amp;&amp; !current.company.nil() &amp;&amp; !current.department.nil() &amp;&amp; !current.port.nil())&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return 'Onboard '+current.company.getDisplayValue()+'&gt;'+current.department.getDisplayValue()+'&gt;'+current.port.getDisplayValue()+' with '+current.onboarding_item.getDisplayValue();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Description" max_length="255" name="description" type="string" virtual="true"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Default App/HW" max_length="40" name="default_app_hw" type="boolean"/>
+        <element label="Fulfilment Group 2" max_length="32" name="fulfilment_group_2" reference="sys_user_group" type="reference"/>
+        <element label="Fulfilment Group 1" max_length="32" name="fulfilment_group_1" reference="sys_user_group" type="reference"/>
+        <element label="Onboarding Item" max_length="32" name="onboarding_item" reference="x_snc_cpa_onboar_0_onboarding_item" type="reference"/>
+        <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" type="reference"/>
+        <element label="Approval Required" max_length="40" name="approval_required" type="boolean"/>
+        <element choice="1" label="Onboarding Item Type" max_length="40" name="onboarding_item_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Application Access" sequence="1" value="app"/>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="hw"/>
+            </choice>
+        </element>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
+        <index name="index">
+            <element name="approval_group"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+        <index name="index3">
+            <element name="department"/>
+        </index>
+        <index name="index4">
+            <element name="fulfilment_group_1"/>
+        </index>
+        <index name="index5">
+            <element name="fulfilment_group_2"/>
+        </index>
+        <index name="index6">
+            <element name="onboarding_item"/>
+        </index>
+        <index name="index7">
+            <element name="port"/>
+        </index>
+    </element>
+</database>

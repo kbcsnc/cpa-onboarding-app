@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="CPA | Identify Applications Agent">ba0e44ea9705a210fc1cf4ef9153af38</agent>
+        <description>Get the list of applications applicable to this new hire for onboarding. Then highlight which ones need approval.</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Get Apps For Onboarding</name>
+        <output_transformation_strategy>none</output_transformation_strategy>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 11:21:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>540ae4ae97c5a210fc1cf4ef9153afc5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Apps For Onboarding</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_540ae4ae97c5a210fc1cf4ef9153afc5</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-30 08:43:40</sys_updated_on>
+        <tool display_value="Get Apps For Onboarding">d00ae4ae97c5a210fc1cf4ef9153afc1</tool>
+        <tool_attributes>{}</tool_attributes>
+    </sn_aia_agent_tool_m2m>
+</record_update>

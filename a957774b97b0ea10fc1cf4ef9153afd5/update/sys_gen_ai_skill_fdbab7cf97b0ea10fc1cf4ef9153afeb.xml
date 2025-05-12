@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_skill">
+    <sys_gen_ai_skill action="INSERT_OR_UPDATE">
+        <enable_followup>false</enable_followup>
+        <skill_description>This AI agent use case is designed to automate the onboarding process for new hires. It involves multiple AI agents working together to validate the new hire's employment type, identify hardware and application access, and provision them accordingly. The AI agents log their actions for auditing purposes and present a summary of all actions performed.</skill_description>
+        <skill_document>f1bab7cf97b0ea10fc1cf4ef9153afe8</skill_document>
+        <skill_name>CPA | Onboarding AI Agent</skill_name>
+        <skill_table>sn_aia_skill_metadata</skill_table>
+        <sys_class_name>sys_gen_ai_skill</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-14 05:34:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fdbab7cf97b0ea10fc1cf4ef9153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_gen_ai_skill_fdbab7cf97b0ea10fc1cf4ef9153afeb</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-14 05:34:16</sys_updated_on>
+    </sys_gen_ai_skill>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdbab7cf97b0ea10fc1cf4ef9153afeb"/>
+</record_update>

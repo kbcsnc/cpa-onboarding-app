@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_strategy_mapping">
+    <sys_gen_ai_strategy_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <feature display_value="Humanize Text String">99bdbf444769e650873506f1d16d43a0</feature>
+        <strategy>CAPABILITY_EXECUTION</strategy>
+        <sys_class_name>sys_gen_ai_strategy_mapping</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 04:52:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5bdb7844769e650873506f1d16d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAPABILITY_EXECUTION</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_gen_ai_strategy_mapping_d5bdb7844769e650873506f1d16d43fe</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 04:52:39</sys_updated_on>
+    </sys_gen_ai_strategy_mapping>
+</record_update>

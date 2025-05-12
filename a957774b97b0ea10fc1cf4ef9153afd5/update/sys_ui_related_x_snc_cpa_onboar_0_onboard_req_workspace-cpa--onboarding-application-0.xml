@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_cpa_onboar_0_onboard_req" version="2" view="workspace-cpa--onboarding-application-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Onboarding Request - Workspace CPA  Onboarding Application 0" name="x_snc_cpa_onboar_0_onboard_req" related_list="NULL" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">9f9dd4029719a610fc1cf4ef9153af47</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sc_request.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:42</sys_created_on>
+            <sys_id>179dd4029719a610fc1cf4ef9153af49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:42</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Onboarding Request - Workspace CPA  Onboarding Application 0</calculated_name>
+            <filter/>
+            <name>x_snc_cpa_onboar_0_onboard_req</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f9dd4029719a610fc1cf4ef9153af47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Onboarding Request - Workspace CPA  Onboarding Application 0</sys_name>
+            <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_cpa_onboar_0_onboard_req_workspace-cpa--onboarding-application-0</sys_update_name>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace CPA  Onboarding Application 0" name="workspace-cpa--onboarding-application-0">989d10022d19a6103d1f885ed519b963</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

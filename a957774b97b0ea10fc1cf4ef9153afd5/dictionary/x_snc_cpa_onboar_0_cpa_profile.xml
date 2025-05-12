@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b4f6b71e9741a210fc1cf4ef9153affb" label="CPA Profile" max_length="40" name="x_snc_cpa_onboar_0_cpa_profile" text_index="true" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.company.getDisplayValue()+'&gt;'+current.department.getDisplayValue()+'&gt;'+current.port.getDisplayValue();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Profile" max_length="255" name="profile" type="string" virtual="true"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Port" max_length="32" name="port" reference="x_snc_cpa_onboar_0_airport_code" type="reference"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="port"/>
+        </index>
+    </element>
+</database>

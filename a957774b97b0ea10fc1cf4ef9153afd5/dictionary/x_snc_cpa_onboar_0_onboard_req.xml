@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="0b99774f97b0ea10fc1cf4ef9153af05" extends="task" label="Onboarding Request" max_length="40" name="x_snc_cpa_onboar_0_onboard_req" text_index="true" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+    </element>
+</database>

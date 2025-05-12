@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
+    <sn_aia_agent action="DELETE">
+        <description>This AI Agent is designed to assist users in creating new business application records. It is intended for use by employees who need to submit new application requests, and it aims to streamline the process by ensuring accuracy and completeness of the information provided.</description>
+        <instructions>1. Gather necessary information for new business application.
+2. Validate input data for completeness and accuracy.
+3. Create new business application record with validated data.
+4. Submit new application record for review and approval.</instructions>
+        <internal_name>global.x_snc_cpa_onboar_0.New App Creator</internal_name>
+        <name>New App Creator</name>
+        <proficiency>- The agent specializes in creating new business application records by gathering necessary information, ensuring data completeness and validity, and submitting the records for review and approval. It is designed to handle this process with precision and accuracy, ensuring compliance with business requirements.
+- The agent is capable of systematically gathering all required information for a new business application, ensuring that no essential data is omitted during the process.
+- The agent is proficient in validating input data to ensure that it is complete, accurate, and adheres to predefined business rules, reducing the risk of errors in the application record.
+- The agent is capable of creating a new business application record by utilizing validated data, ensuring that the record is structured correctly and meets all necessary requirements.
+- The agent is capable of submitting newly created business application records for review and approval, ensuring that the application progresses to the next stage in the workflow.</proficiency>
+        <record_type>custom</record_type>
+        <role>The New App Creator AI Agent specializes in creating new business application records with precision and accuracy. It is responsible for gathering necessary information, ensuring completeness and validity, and submitting the new application record for review and approval.</role>
+        <run_as/>
+        <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
+        <sys_class_name>sn_aia_agent</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-29 09:10:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>95bb750097196210fc1cf4ef9153af2b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New App Creator</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_agent_95bb750097196210fc1cf4ef9153af2b</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-29 09:10:23</sys_updated_on>
+    </sn_aia_agent>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sn_aia_agent_95bb750097196210fc1cf4ef9153af2b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent"><sn_aia_agent action="INSERT_OR_UPDATE"><description>This AI Agent is designed to assist users in creating new business application records. It is intended for use by employees who need to submit new application requests, and it aims to streamline the process by ensuring accuracy and completeness of the information provided.</description><instructions>1. Gather necessary information for new business application.
+2. Validate input data for completeness and accuracy.
+3. Create new business application record with validated data.
+4. Submit new application record for review and approval.</instructions><internal_name>global.x_snc_cpa_onboar_0.New App Creator</internal_name><name>New App Creator</name><proficiency>- The agent specializes in creating new business application records by gathering necessary information, ensuring data completeness and validity, and submitting the records for review and approval. It is designed to handle this process with precision and accuracy, ensuring compliance with business requirements.
+- The agent is capable of systematically gathering all required information for a new business application, ensuring that no essential data is omitted during the process.
+- The agent is proficient in validating input data to ensure that it is complete, accurate, and adheres to predefined business rules, reducing the risk of errors in the application record.
+- The agent is capable of creating a new business application record by utilizing validated data, ensuring that the record is structured correctly and meets all necessary requirements.
+- The agent is capable of submitting newly created business application records for review and approval, ensuring that the application progresses to the next stage in the workflow.</proficiency><record_type>custom</record_type><role>The New App Creator AI Agent specializes in creating new business application records with precision and accuracy. It is responsible for gathering necessary information, ensuring completeness and validity, and submitting the new application record for review and approval.</role><run_as/><strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy><sys_class_name>sn_aia_agent</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-29 09:10:12</sys_created_on><sys_domain>global</sys_domain><sys_id>95bb750097196210fc1cf4ef9153af2b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>New App Creator</sys_name><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sn_aia_agent_95bb750097196210fc1cf4ef9153af2b</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-29 09:10:23</sys_updated_on></sn_aia_agent></record_update>]]></payload>
+        <payload_hash>11902766</payload_hash>
+        <record_name>New App Creator</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-29 09:10:23</sys_created_on>
+        <sys_id>120cb1c097196210fc1cf4ef9153afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19680cfca2f0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-29 09:10:23</sys_updated_on>
+        <type>AI Agent</type>
+        <update_guid>d60cb1c013196210cd37e292adde72e4</update_guid>
+        <update_guid_history>d60cb1c013196210cd37e292adde72e4:11902766,d7fbb9809e196210a5d2e68b9b1628dd:162228746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New App Creator">65bc42cc97596210fc1cf4ef9153af14</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-29 10:23:16</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_agent">sn_aia_agent</sys_db_object>
+        <sys_id>2bfb25c0c8a444008dbe7f7da8184000</sys_id>
+        <sys_metadata>95bb750097196210fc1cf4ef9153af2b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New App Creator</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sn_aia_agent_95bb750097196210fc1cf4ef9153af2b</sys_update_name>
+        <sys_update_version display_value="sn_aia_agent_95bb750097196210fc1cf4ef9153af2b">120cb1c097196210fc1cf4ef9153afe5</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-29 10:23:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

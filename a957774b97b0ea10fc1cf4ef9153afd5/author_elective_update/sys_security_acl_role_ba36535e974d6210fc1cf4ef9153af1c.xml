@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 05:15:05</sys_created_on>
+        <sys_id>ba36535e974d6210fc1cf4ef9153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cpa_onboar_0_onboarding_asset.x_snc_cpa_onboar_0.user</sys_name>
+        <sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_security_acl display_value="x_snc_cpa_onboar_0_onboarding_asset">7236535e974d6210fc1cf4ef9153af16</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ba36535e974d6210fc1cf4ef9153af1c</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-24 05:15:05</sys_updated_on>
+        <sys_user_role display_value="x_snc_cpa_onboar_0.user" name="x_snc_cpa_onboar_0.user">6d57b74b97b0ea10fc1cf4ef9153af25</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sys_security_acl_role_ba36535e974d6210fc1cf4ef9153af1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-24 05:15:05</sys_created_on><sys_id>ba36535e974d6210fc1cf4ef9153af1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_cpa_onboar_0_onboarding_asset.x_snc_cpa_onboar_0.user</sys_name><sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_security_acl display_value="x_snc_cpa_onboar_0_onboarding_asset">7236535e974d6210fc1cf4ef9153af16</sys_security_acl><sys_update_name>sys_security_acl_role_ba36535e974d6210fc1cf4ef9153af1c</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-24 05:15:05</sys_updated_on><sys_user_role display_value="x_snc_cpa_onboar_0.user" name="x_snc_cpa_onboar_0.user">6d57b74b97b0ea10fc1cf4ef9153af25</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-347339828</payload_hash>
+        <record_name>x_snc_cpa_onboar_0_onboarding_asset.x_snc_cpa_onboar_0.user</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 05:15:05</sys_created_on>
+        <sys_id>3e36535e974d6210fc1cf4ef9153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966638924e0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-24 05:15:05</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3236535eb14d6210a87c36a428ee592e</update_guid>
+        <update_guid_history>3236535eb14d6210a87c36a428ee592e:-347339828</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_cpa_onboar_0_onboarding_asset.x_snc_cpa_onboar_0.user">3fd6579e974d6210fc1cf4ef9153af06</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 05:17:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6ffe4271f8c24b3a95fcfec6506b7d44</sys_id>
+        <sys_metadata>ba36535e974d6210fc1cf4ef9153af1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cpa_onboar_0_onboarding_asset.x_snc_cpa_onboar_0.user</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent display_value="">7236535e974d6210fc1cf4ef9153af16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ba36535e974d6210fc1cf4ef9153af1c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ba36535e974d6210fc1cf4ef9153af1c">3e36535e974d6210fc1cf4ef9153af2e</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-24 05:17:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Provision Confluence access to the employee</description>
+        <input_schema>[]</input_schema>
+        <name>Provision Confluence Access</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[undefined]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-02 06:57:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f36ab4c597dde610fc1cf4ef9153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Provision Confluence Access</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_tool_f36ab4c597dde610fc1cf4ef9153af7f</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-02 06:57:42</sys_updated_on>
+        <target_document>0726540597d9e610fc1cf4ef9153af81</target_document>
+        <target_document_table>sys_hub_flow</target_document_table>
+        <type>subflow</type>
+    </sn_aia_tool>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="asset_name" table="x_snc_cpa_onboar_0_onboarding_asset">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Asset Name</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>asset_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <name>x_snc_cpa_onboar_0_onboarding_asset</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 05:16:01</sys_created_on>
+        <sys_id>1876975e974d6210fc1cf4ef9153afe0</sys_id>
+        <sys_name>Asset Name</sys_name>
+        <sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_cpa_onboar_0_onboarding_asset_asset_name</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-24 05:16:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sys_dictionary_x_snc_cpa_onboar_0_onboarding_asset_asset_name</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="asset_name" table="x_snc_cpa_onboar_0_onboarding_asset"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Asset Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>asset_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_snc_cpa_onboar_0_onboarding_asset</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-24 05:16:01</sys_created_on><sys_id>1876975e974d6210fc1cf4ef9153afe0</sys_id><sys_name>Asset Name</sys_name><sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sys_dictionary_x_snc_cpa_onboar_0_onboarding_asset_asset_name</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-24 05:16:01</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>463353571</payload_hash>
+        <record_name>Onboarding Asset.Asset Name</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 05:16:01</sys_created_on>
+        <sys_id>9076d75e974d6210fc1cf4ef9153afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19666396c430000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-24 05:16:01</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>5876d75eb74d621062c22cda0f22eaa4</update_guid>
+        <update_guid_history>5876d75eb74d621062c22cda0f22eaa4:463353571,9c76d75e664d621033110d785bd0f282:1011325280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-24 05:17:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>01d287fe810e4d7f9bce7f094a66ed89</sys_id>
+        <sys_metadata>1876975e974d6210fc1cf4ef9153afe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset Name</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent display_value="">29369f1e974d6210fc1cf4ef9153afff</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_cpa_onboar_0_onboarding_asset_asset_name</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_cpa_onboar_0_onboarding_asset_asset_name">9076d75e974d6210fc1cf4ef9153afa5</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-24 05:17:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

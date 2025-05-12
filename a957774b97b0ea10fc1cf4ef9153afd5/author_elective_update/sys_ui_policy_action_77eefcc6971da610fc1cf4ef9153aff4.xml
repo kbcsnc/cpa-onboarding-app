@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>comments</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 09:51:17</sys_created_on>
+        <sys_id>77eefcc6971da610fc1cf4ef9153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_77eefcc6971da610fc1cf4ef9153aff4</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 09:51:17</sys_updated_on>
+        <table>x_snc_cpa_onboar_0_onboard_req</table>
+        <ui_policy display_value="Hide Additional Comments Field">b3eefcc6971da610fc1cf4ef9153af8e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=77eefcc6971da610fc1cf4ef9153aff4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sys_ui_policy_action_77eefcc6971da610fc1cf4ef9153aff4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>comments</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-05-05 09:51:17</sys_created_on><sys_id>77eefcc6971da610fc1cf4ef9153aff4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>comments</sys_name><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sys_ui_policy_action_77eefcc6971da610fc1cf4ef9153aff4</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-05-05 09:51:17</sys_updated_on><table>x_snc_cpa_onboar_0_onboard_req</table><ui_policy display_value="Hide Additional Comments Field">b3eefcc6971da610fc1cf4ef9153af8e</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=77eefcc6971da610fc1cf4ef9153aff4"/></record_update>]]></payload>
+        <payload_hash>-1865889141</payload_hash>
+        <record_name>comments</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 09:51:17</sys_created_on>
+        <sys_id>7feefcc6971da610fc1cf4ef9153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1969fdb627b0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 09:51:17</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>73eefcc63c1da61035620b0ee3a0aef6</update_guid>
+        <update_guid_history>73eefcc63c1da61035620b0ee3a0aef6:-1865889141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 09:57:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>50cc9cca49c84026984839f858063531</sys_id>
+        <sys_metadata>77eefcc6971da610fc1cf4ef9153aff4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_77eefcc6971da610fc1cf4ef9153aff4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_77eefcc6971da610fc1cf4ef9153aff4">7feefcc6971da610fc1cf4ef9153aff6</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 09:57:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

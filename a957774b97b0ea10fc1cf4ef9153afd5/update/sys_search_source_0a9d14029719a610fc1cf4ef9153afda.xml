@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_cpa_onboar_0_airport_code">active=true</condition>
+        <group/>
+        <name>CPA | Onboarding Application - x_snc_cpa_onboar_0_</name>
+        <roles/>
+        <source_table>x_snc_cpa_onboar_0_airport_code</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 07:25:37</sys_created_on>
+        <sys_id>0a9d14029719a610fc1cf4ef9153afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CPA | Onboarding Application - x_snc_cpa_onboar_0_</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_search_source_0a9d14029719a610fc1cf4ef9153afda</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 07:25:37</sys_updated_on>
+    </sys_search_source>
+</record_update>

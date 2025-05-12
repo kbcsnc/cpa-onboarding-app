@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">0303743f9705ea10fc1cf4ef9153afb7</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-28 09:13:01</sys_created_on>
+        <sys_id>4303743f9705ea10fc1cf4ef9153afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teams Phone Request.SNC External</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_4303743f9705ea10fc1cf4ef9153afbd</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-28 09:13:01</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_4303743f9705ea10fc1cf4ef9153afbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">0303743f9705ea10fc1cf4ef9153afb7</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-28 09:13:01</sys_created_on><sys_id>4303743f9705ea10fc1cf4ef9153afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Teams Phone Request.SNC External</sys_name><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_4303743f9705ea10fc1cf4ef9153afbd</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-28 09:13:01</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-392248618</payload_hash>
+        <record_name>Teams Phone Request.SNC External</record_name>
+        <reverted_from/>
+        <source>8dbd2b0297012210fc1cf4ef9153af2b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-04-23 12:19:09</sys_created_on>
+        <sys_id>dd73747f9705ea10fc1cf4ef9153af55</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>196629672480000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>9d73747f4705ea10b3eaac7d74d89655</update_guid>
+        <update_guid_history>9d73747f4705ea10b3eaac7d74d89655:-392248618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Teams Phone Request.SNC External">1973747f9705ea10fc1cf4ef9153af56</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-28 09:14:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>091f2a0d458e417d99836543f838ef09</sys_id>
+        <sys_metadata>4303743f9705ea10fc1cf4ef9153afbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teams Phone Request.SNC External</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_4303743f9705ea10fc1cf4ef9153afbd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_4303743f9705ea10fc1cf4ef9153afbd">dd73747f9705ea10fc1cf4ef9153af55</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-28 09:14:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

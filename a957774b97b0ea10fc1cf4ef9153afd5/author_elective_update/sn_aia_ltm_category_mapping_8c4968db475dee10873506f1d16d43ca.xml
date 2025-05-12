@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_ltm_category_mapping">
+    <sn_aia_ltm_category_mapping action="DELETE">
+        <category display_value="Meetings and Events">66442eae43db52107c4d14020ab8f26f</category>
+        <entity_id>23e9d17b9749ea10fc1cf4ef9153afcc</entity_id>
+        <entity_table>sn_aia_agent</entity_table>
+        <sys_class_name>sn_aia_ltm_category_mapping</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-09 05:28:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8c4968db475dee10873506f1d16d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_ltm_category_mapping_8c4968db475dee10873506f1d16d43ca</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-09 05:28:58</sys_updated_on>
+    </sn_aia_ltm_category_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sn_aia_ltm_category_mapping_8c4968db475dee10873506f1d16d43ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_ltm_category_mapping"><sn_aia_ltm_category_mapping action="INSERT_OR_UPDATE"><category display_value="Meetings and Events">66442eae43db52107c4d14020ab8f26f</category><entity_id>23e9d17b9749ea10fc1cf4ef9153afcc</entity_id><entity_table>sn_aia_agent</entity_table><sys_class_name>sn_aia_ltm_category_mapping</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-05-09 05:28:58</sys_created_on><sys_domain>global</sys_domain><sys_id>8c4968db475dee10873506f1d16d43ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sn_aia_ltm_category_mapping_8c4968db475dee10873506f1d16d43ca</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-05-09 05:28:58</sys_updated_on></sn_aia_ltm_category_mapping></record_update>]]></payload>
+        <payload_hash>2002463339</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-09 05:28:58</sys_created_on>
+        <sys_id>c84968db475dee10873506f1d16d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196b384a9cd0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-09 05:28:58</sys_updated_on>
+        <type>AI Agent Category Mappings</type>
+        <update_guid>cc4968db4c5dee10b09d459af29f4bcb</update_guid>
+        <update_guid_history>cc4968db4c5dee10b09d459af29f4bcb:2002463339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bfede0d7479dee10873506f1d16d4397</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-09 05:49:26</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_ltm_category_mapping">sn_aia_ltm_category_mapping</sys_db_object>
+        <sys_id>24b00b52d2f84931a8bed3ebf1a97219</sys_id>
+        <sys_metadata>8c4968db475dee10873506f1d16d43ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sn_aia_ltm_category_mapping_8c4968db475dee10873506f1d16d43ca</sys_update_name>
+        <sys_update_version display_value="sn_aia_ltm_category_mapping_8c4968db475dee10873506f1d16d43ca">c84968db475dee10873506f1d16d43cc</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-09 05:49:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_eval_attribute">
+    <sys_one_extend_eval_attribute action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <capability display_value="Humanize Text">2fbe649447212a50873506f1d16d433d</capability>
+        <capability_attribute display_value="response">f7beacd447212a50873506f1d16d43d2</capability_attribute>
+        <data_type>string</data_type>
+        <label>Golden Response</label>
+        <name>response</name>
+        <sys_class_name>sys_one_extend_eval_attribute</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 08:26:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fbeacd447212a50873506f1d16d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Golden Response</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_one_extend_eval_attribute_7fbeacd447212a50873506f1d16d43d4</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:26:53</sys_updated_on>
+        <template/>
+        <template_script><![CDATA[(function getValue(response) {
+   // response would give the response from capability 
+})(response);]]></template_script>
+    </sys_one_extend_eval_attribute>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status">
+    <sn_nowassist_skill_config_status action="DELETE">
+        <active>false</active>
+        <in_mobile_active>false</in_mobile_active>
+        <in_mobile_roles/>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <skill_config display_value="Humanize Text String">e1bdf7844769e650873506f1d16d4320</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_status</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 04:52:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>69bdf7844769e650873506f1d16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_status_69bdf7844769e650873506f1d16d4323</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 04:52:40</sys_updated_on>
+    </sn_nowassist_skill_config_status>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sn_nowassist_skill_config_status_69bdf7844769e650873506f1d16d4323</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status"><sn_nowassist_skill_config_status action="INSERT_OR_UPDATE"><active>false</active><in_mobile_active>false</in_mobile_active><in_mobile_roles/><in_product_active>false</in_product_active><in_product_roles/><skill_config display_value="Humanize Text String">e1bdf7844769e650873506f1d16d4320</skill_config><sys_class_name>sn_nowassist_skill_config_status</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-05-12 04:52:40</sys_created_on><sys_domain>global</sys_domain><sys_id>69bdf7844769e650873506f1d16d4323</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sn_nowassist_skill_config_status_69bdf7844769e650873506f1d16d4323</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-05-12 04:52:40</sys_updated_on></sn_nowassist_skill_config_status></record_update>]]></payload>
+        <payload_hash>852854727</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 04:52:40</sys_created_on>
+        <sys_id>61bdf7844769e650873506f1d16d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c2d6824e0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 04:52:40</sys_updated_on>
+        <type>Now Assist Skill Config Status</type>
+        <update_guid>25bdf7847069e650671e7ee85fc6eb25</update_guid>
+        <update_guid_history>25bdf7847069e650671e7ee85fc6eb25:852854727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5d7b9c18476de650873506f1d16d432d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 07:02:37</sys_created_on>
+        <sys_db_object display_value="" name="sn_nowassist_skill_config_status">sn_nowassist_skill_config_status</sys_db_object>
+        <sys_id>b59857315d9c4fa89179a5fd4e490e10</sys_id>
+        <sys_metadata>69bdf7844769e650873506f1d16d4323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sn_nowassist_skill_config_status_69bdf7844769e650873506f1d16d4323</sys_update_name>
+        <sys_update_version display_value="sn_nowassist_skill_config_status_69bdf7844769e650873506f1d16d4323">61bdf7844769e650873506f1d16d4326</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 07:02:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

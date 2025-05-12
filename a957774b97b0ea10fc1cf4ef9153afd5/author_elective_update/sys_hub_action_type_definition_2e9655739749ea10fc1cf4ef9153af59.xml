@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>cpa__provision_teams_phone</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>CPA | Provision Teams Phone</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-28 11:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e9655739749ea10fc1cf4ef9153af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CPA | Provision Teams Phone</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2e9655739749ea10fc1cf4ef9153af59</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-28 11:48:21</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_variable_value action="DELETE" query="document_key=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_hub_step_instance action="DELETE" query="action=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_hub_action_input action="DELETE" query="model=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_hub_action_output action="DELETE" query="model=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=2e9655739749ea10fc1cf4ef9153af59"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sys_hub_action_type_definition_2e9655739749ea10fc1cf4ef9153af59</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>27000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><flow_priority/><ih_action>false</ih_action><internal_name>cpa__provision_teams_phone</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>CPA | Provision Teams Phone</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-28 11:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2e9655739749ea10fc1cf4ef9153af59</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CPA | Provision Teams Phone</sys_name><sys_overrides/><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sys_hub_action_type_definition_2e9655739749ea10fc1cf4ef9153af59</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-28 11:48:21</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=2e9655739749ea10fc1cf4ef9153af59"/><sys_variable_value action="delete_multiple" query="document_key=2e9655739749ea10fc1cf4ef9153af59"/><sys_hub_step_instance action="delete_multiple" query="action=2e9655739749ea10fc1cf4ef9153af59"/><sys_hub_action_input action="delete_multiple" query="model=2e9655739749ea10fc1cf4ef9153af59"/><sys_hub_action_output action="delete_multiple" query="model=2e9655739749ea10fc1cf4ef9153af59"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=2e9655739749ea10fc1cf4ef9153af59"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2e9655739749ea10fc1cf4ef9153af59"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2e9655739749ea10fc1cf4ef9153af59"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2e9655739749ea10fc1cf4ef9153af59"/><sys_hub_action_plan action="delete_multiple" query="action_id=2e9655739749ea10fc1cf4ef9153af59"/></record_update>]]></payload>
+        <payload_hash>-17458965</payload_hash>
+        <record_name>CPA | Provision Teams Phone</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-28 11:48:21</sys_created_on>
+        <sys_id>629655739749ea10fc1cf4ef9153af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967c3a0eca0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-28 11:48:21</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>269655732949ea105e590462c980a15e</update_guid>
+        <update_guid_history>269655732949ea105e590462c980a15e:-17458965</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-28 11:54:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>b5fc2ceacbc74986872ed511f7c3a521</sys_id>
+        <sys_metadata>2e9655739749ea10fc1cf4ef9153af59</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CPA | Provision Teams Phone</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_2e9655739749ea10fc1cf4ef9153af59</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_2e9655739749ea10fc1cf4ef9153af59">629655739749ea10fc1cf4ef9153af5f</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-28 11:54:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

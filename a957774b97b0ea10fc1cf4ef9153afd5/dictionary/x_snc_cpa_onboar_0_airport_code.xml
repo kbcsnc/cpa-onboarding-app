@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="326369ab97f46e10fc1cf4ef9153afdd" label="Airport Code" max_length="40" name="x_snc_cpa_onboar_0_airport_code" text_index="true" type="collection">
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Alternate Manager" max_length="32" name="alternate_manager" reference="sys_user" type="reference"/>
+        <element display="true" label="Port" max_length="40" name="port" type="string"/>
+        <index name="index">
+            <element name="alternate_manager"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

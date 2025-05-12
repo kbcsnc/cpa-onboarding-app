@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <delta/>
+        <description/>
+        <enable_publishing>true</enable_publishing>
+        <label/>
+        <name>Onboarding Matrix</name>
+        <reference_qualifier/>
+        <status>draft</status>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-15 07:33:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb9fdde397f46e10fc1cf4ef9153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboarding Matrix</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_decision_bb9fdde397f46e10fc1cf4ef9153afed</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-15 07:33:36</sys_updated_on>
+    </sys_decision>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sys_decision_bb9fdde397f46e10fc1cf4ef9153afed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision"><sys_decision action="INSERT_OR_UPDATE"><access>public</access><active>false</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><delta/><description/><enable_publishing>true</enable_publishing><label/><name>Onboarding Matrix</name><reference_qualifier/><status>draft</status><sys_class_name>sys_decision</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-15 07:33:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb9fdde397f46e10fc1cf4ef9153afed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Onboarding Matrix</sys_name><sys_overrides/><sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sys_decision_bb9fdde397f46e10fc1cf4ef9153afed</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-15 07:33:36</sys_updated_on></sys_decision></record_update>]]></payload>
+        <payload_hash>111820974</payload_hash>
+        <record_name>Onboarding Matrix</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-15 07:33:36</sys_created_on>
+        <sys_id>c4afdde397f46e10fc1cf4ef9153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196385e26790000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-15 07:33:36</sys_updated_on>
+        <type>Decision Table</type>
+        <update_guid>c8afdde35ef46e106e1b44947dfcf2f1</update_guid>
+        <update_guid_history>c8afdde35ef46e106e1b44947dfcf2f1:111820974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-15 08:10:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision">sys_decision</sys_db_object>
+        <sys_id>172f5f724db24dafb8f7cdbde224dd09</sys_id>
+        <sys_metadata>bb9fdde397f46e10fc1cf4ef9153afed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboarding Matrix</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sys_decision_bb9fdde397f46e10fc1cf4ef9153afed</sys_update_name>
+        <sys_update_version display_value="sys_decision_bb9fdde397f46e10fc1cf4ef9153afed">c4afdde397f46e10fc1cf4ef9153aff2</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-15 08:10:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

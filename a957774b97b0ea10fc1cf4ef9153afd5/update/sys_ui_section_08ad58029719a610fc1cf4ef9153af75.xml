@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="08ad58029719a610fc1cf4ef9153af75" sys_domain="global" table="x_snc_cpa_onboar_0_onboarding_item" version="3" view="workspace-cpa--onboarding-application-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item</element>
+            <position>0</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:45</sys_created_on>
+            <sys_id>c8ad58029719a610fc1cf4ef9153af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cpa_onboar_0_onboarding_item" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">08ad58029719a610fc1cf4ef9153af75</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_type</element>
+            <position>1</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:45</sys_created_on>
+            <sys_id>c8ad58029719a610fc1cf4ef9153af76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cpa_onboar_0_onboarding_item" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">08ad58029719a610fc1cf4ef9153af75</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>catalog_item</element>
+            <position>2</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:45</sys_created_on>
+            <sys_id>c0ad58029719a610fc1cf4ef9153af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cpa_onboar_0_onboarding_item" sys_domain="global" view="989d10022d19a6103d1f885ed519b963">08ad58029719a610fc1cf4ef9153af75</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_cpa_onboar_0_onboarding_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-05-05 07:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08ad58029719a610fc1cf4ef9153af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cpa_onboar_0_onboarding_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+            <sys_update_name>sys_ui_section_08ad58029719a610fc1cf4ef9153af75</sys_update_name>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-05-05 07:25:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace CPA  Onboarding Application 0" name="workspace-cpa--onboarding-application-0">989d10022d19a6103d1f885ed519b963</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_usecase">
+    <sn_aia_usecase action="INSERT_OR_UPDATE">
+        <base_plan>Include all provisioning agents in this scenario but only execute them if they are part of the applicable items for provisioning of the new hire. Each provisioning agent are unique and do not overlap, you must include all provisioning agents. Do not attempt to combine them. Keep track of the originating onboarding request number and the new hire in memory. The onboarding request number should be passed into the AI agents where necessary in the form of a task number. The ordering of steps below is paramount and must be followed in the following sequential order.
+
+1. Validate new hire's employment type based on headquarters or subsidiary. 
+2. Identify hardware applicable to the new hire by referencing an onboarding matrix and you must seek confirmation before continuing.
+3. Identify application access available for the new hire by referencing an onboarding matrix and you must seek confirmation before continuing.
+4. Provision relevant hardware items for the new hire by selecting the suitable provisioning agent and you must complete this step before proceeding.
+5. Provision relevant application access for the new hire by selecting the suitable provisioning agent and you must complete this step before proceeding.
+6. Present a summary of all actions performed and log the summary of actions to the onboarding request in a very concise reporting manner.</base_plan>
+        <description>This AI agent use case is designed to automate the onboarding process for new hires. It involves multiple AI agents working together to validate the new hire's employment type, identify hardware and application access, and provision them accordingly. The AI agents log their actions for auditing purposes and present a summary of all actions performed.</description>
+        <execution_mode>copilot</execution_mode>
+        <internal_name>global.x_snc_cpa_onboar_0.CPA | Onboarding AI Agent</internal_name>
+        <name>CPA | Onboarding AI Agent</name>
+        <record_type>custom</record_type>
+        <strategy display_value="Base Planner">a43ada98ff1422106c36ffffffffff46</strategy>
+        <sys_class_name>sn_aia_usecase</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-14 05:25:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>53873f4b97b0ea10fc1cf4ef9153afa4</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>CPA | Onboarding AI Agent</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_usecase_53873f4b97b0ea10fc1cf4ef9153afa4</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 02:58:58</sys_updated_on>
+        <team display_value="Onboarding Employee Agent">c7c873cb97b0ea10fc1cf4ef9153aff5</team>
+    </sn_aia_usecase>
+</record_update>

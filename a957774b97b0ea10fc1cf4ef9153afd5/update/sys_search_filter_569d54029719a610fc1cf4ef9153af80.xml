@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="CPA Profile">929d54029719a610fc1cf4ef9153af78</ais_search_source>
+        <label>CPA Profile</label>
+        <name>CPA Profile</name>
+        <order>200</order>
+        <search_context_config display_value="CPA | Onboarding Application AI Search Configuration">1c9d10023c19a6104b974e54f9373b64</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 07:25:38</sys_created_on>
+        <sys_id>569d54029719a610fc1cf4ef9153af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CPA Profile</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_search_filter_569d54029719a610fc1cf4ef9153af80</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 07:25:38</sys_updated_on>
+    </sys_search_filter>
+</record_update>

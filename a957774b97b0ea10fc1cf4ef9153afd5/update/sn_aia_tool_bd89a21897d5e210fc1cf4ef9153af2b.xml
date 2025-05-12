@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Log the actions of what the AI agent did back to the worknotes of the originating onboarding request by passing the onboarding request number as 'onb_req_num'.</description>
+        <input_schema>[]</input_schema>
+        <name>Log Actions to Worknotes</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[undefined]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-30 07:07:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bd89a21897d5e210fc1cf4ef9153af2b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Log Actions to Worknotes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_tool_bd89a21897d5e210fc1cf4ef9153af2b</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-09 03:08:16</sys_updated_on>
+        <target_document>b9d92c4c979d2210fc1cf4ef9153afa8</target_document>
+        <target_document_table>sys_hub_flow</target_document_table>
+        <type>subflow</type>
+    </sn_aia_tool>
+</record_update>

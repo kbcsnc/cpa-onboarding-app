@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_trigger_agent_usecase_m2m">
+    <sn_aia_trigger_agent_usecase_m2m action="DELETE">
+        <related_resource_record>53873f4b97b0ea10fc1cf4ef9153afa4</related_resource_record>
+        <related_resource_table>sn_aia_usecase</related_resource_table>
+        <sys_class_name>sn_aia_trigger_agent_usecase_m2m</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-14 05:33:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e1aaf3cf97b0ea10fc1cf4ef9153af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_trigger_agent_usecase_m2m_e1aaf3cf97b0ea10fc1cf4ef9153af8c</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-14 05:33:57</sys_updated_on>
+        <trigger_configuration display_value="x_snc_cpa_onboar_0_onboard_req">25aa7b4f97b0ea10fc1cf4ef9153afaf</trigger_configuration>
+    </sn_aia_trigger_agent_usecase_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sn_aia_trigger_agent_usecase_m2m_e1aaf3cf97b0ea10fc1cf4ef9153af8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_trigger_agent_usecase_m2m"><sn_aia_trigger_agent_usecase_m2m action="INSERT_OR_UPDATE"><related_resource_record>53873f4b97b0ea10fc1cf4ef9153afa4</related_resource_record><related_resource_table>sn_aia_usecase</related_resource_table><sys_class_name>sn_aia_trigger_agent_usecase_m2m</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-04-14 05:33:57</sys_created_on><sys_domain>global</sys_domain><sys_id>e1aaf3cf97b0ea10fc1cf4ef9153af8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CPA Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sn_aia_trigger_agent_usecase_m2m_e1aaf3cf97b0ea10fc1cf4ef9153af8c</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-04-14 05:33:57</sys_updated_on><trigger_configuration display_value="x_snc_cpa_onboar_0_onboard_req">25aa7b4f97b0ea10fc1cf4ef9153afaf</trigger_configuration></sn_aia_trigger_agent_usecase_m2m></record_update>]]></payload>
+        <payload_hash>1005530821</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-04-14 05:33:57</sys_created_on>
+        <sys_id>6daaf3cf97b0ea10fc1cf4ef9153af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19632ca41570000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-04-14 05:33:57</sys_updated_on>
+        <type>Trigger M2M</type>
+        <update_guid>21aaf3cf7ab0ea107e22f6006c89578e</update_guid>
+        <update_guid_history>21aaf3cf7ab0ea107e22f6006c89578e:1005530821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">aca6424597992a10fc1cf4ef9153afd8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-02 12:30:37</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_trigger_agent_usecase_m2m">sn_aia_trigger_agent_usecase_m2m</sys_db_object>
+        <sys_id>233893622cf64ff39c3d0c49f2ce3041</sys_id>
+        <sys_metadata>e1aaf3cf97b0ea10fc1cf4ef9153af8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sn_aia_trigger_agent_usecase_m2m_e1aaf3cf97b0ea10fc1cf4ef9153af8c</sys_update_name>
+        <sys_update_version display_value="sn_aia_trigger_agent_usecase_m2m_e1aaf3cf97b0ea10fc1cf4ef9153af8c">6daaf3cf97b0ea10fc1cf4ef9153af8e</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-02 12:30:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>employee.x_snc_nask_quali_0_cpa_profile.department</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 09:48:18</sys_created_on>
+        <sys_id>9c4eb886971da610fc1cf4ef9153af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee.x_snc_nask_quali_0_cpa_profile.department</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9c4eb886971da610fc1cf4ef9153af7a</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 09:48:18</sys_updated_on>
+        <table>x_snc_cpa_onboar_0_onboard_req</table>
+        <ui_policy display_value="Mark CPA Profile Fields Disabled">584eb886971da610fc1cf4ef9153af12</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=9c4eb886971da610fc1cf4ef9153af7a"/>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_config">
+    <sn_aia_agent_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="CPA | Laptop Provisioning Agent">32eb80019799e610fc1cf4ef9153af73</agent>
+        <proficiency/>
+        <sys_class_name>sn_aia_agent_config</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-02 06:46:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>47f7b04597dde610fc1cf4ef9153af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_agent_config_47f7b04597dde610fc1cf4ef9153af25</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-02 06:46:59</sys_updated_on>
+    </sn_aia_agent_config>
+</record_update>

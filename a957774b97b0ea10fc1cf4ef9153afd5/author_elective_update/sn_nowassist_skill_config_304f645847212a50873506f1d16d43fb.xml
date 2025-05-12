@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config">
+    <sn_nowassist_skill_config action="DELETE">
+        <active>false</active>
+        <description/>
+        <edited_in_nask>false</edited_in_nask>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <is_template>false</is_template>
+        <name>Humanize Text</name>
+        <nap_skill_applicability/>
+        <order>100</order>
+        <parent/>
+        <skill_family display_value="Other">a5efaf1c93764210aa5730f16489186d</skill_family>
+        <skill_id>bc4f645847212a50873506f1d16d43d7</skill_id>
+        <skill_table>sys_one_extend_capability</skill_table>
+        <state>0</state>
+        <success_message/>
+        <sys_class_name>sn_nowassist_skill_config</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 08:29:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>304f645847212a50873506f1d16d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Humanize Text</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_304f645847212a50873506f1d16d43fb</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:29:09</sys_updated_on>
+    </sn_nowassist_skill_config>
+    <sys_translated_text action="DELETE" query="documentkey=304f645847212a50873506f1d16d43fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sn_nowassist_skill_config_304f645847212a50873506f1d16d43fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config"><sn_nowassist_skill_config action="INSERT_OR_UPDATE"><active>false</active><description/><edited_in_nask>false</edited_in_nask><in_product_active>false</in_product_active><in_product_roles/><is_template>false</is_template><name>Humanize Text</name><nap_skill_applicability/><order>100</order><parent/><skill_family display_value="Other">a5efaf1c93764210aa5730f16489186d</skill_family><skill_id>bc4f645847212a50873506f1d16d43d7</skill_id><skill_table>sys_one_extend_capability</skill_table><state>0</state><success_message/><sys_class_name>sn_nowassist_skill_config</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-05-12 08:29:09</sys_created_on><sys_domain>global</sys_domain><sys_id>304f645847212a50873506f1d16d43fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Humanize Text</sys_name><sys_overrides/><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sn_nowassist_skill_config_304f645847212a50873506f1d16d43fb</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-05-12 08:29:09</sys_updated_on></sn_nowassist_skill_config><sys_translated_text action="delete_multiple" query="documentkey=304f645847212a50873506f1d16d43fb"/></record_update>]]></payload>
+        <payload_hash>-965519180</payload_hash>
+        <record_name>Humanize Text</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 08:29:09</sys_created_on>
+        <sys_id>704f645847212a50873506f1d16d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c39cb7930000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:29:09</sys_updated_on>
+        <type>Now Assist Skill Config</type>
+        <update_guid>744f6458cc212a508a402d97d372f1fc</update_guid>
+        <update_guid_history>744f6458cc212a508a402d97d372f1fc:-965519180</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Humanize Text">90cf289847212a50873506f1d16d43ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 08:31:19</sys_created_on>
+        <sys_db_object display_value="" name="sn_nowassist_skill_config">sn_nowassist_skill_config</sys_db_object>
+        <sys_id>32fecbca99514fdc96395400f057e210</sys_id>
+        <sys_metadata>304f645847212a50873506f1d16d43fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Humanize Text</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sn_nowassist_skill_config_304f645847212a50873506f1d16d43fb</sys_update_name>
+        <sys_update_version display_value="sn_nowassist_skill_config_304f645847212a50873506f1d16d43fb">704f645847212a50873506f1d16d43fd</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:31:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

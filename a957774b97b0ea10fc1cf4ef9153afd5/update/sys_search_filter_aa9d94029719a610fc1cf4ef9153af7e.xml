@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Airport Code">a69d94029719a610fc1cf4ef9153af76</ais_search_source>
+        <label>Airport Code</label>
+        <name>Airport Code</name>
+        <order>500</order>
+        <search_context_config display_value="CPA | Onboarding Application AI Search Configuration">1c9d10023c19a6104b974e54f9373b64</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-05 07:25:39</sys_created_on>
+        <sys_id>aa9d94029719a610fc1cf4ef9153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Airport Code</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_search_filter_aa9d94029719a610fc1cf4ef9153af7e</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-05 07:25:39</sys_updated_on>
+    </sys_search_filter>
+</record_update>

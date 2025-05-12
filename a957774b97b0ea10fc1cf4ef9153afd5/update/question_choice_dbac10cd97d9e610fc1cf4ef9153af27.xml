@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="What type of expected usage will this be for?">7c77d8c597d9e610fc1cf4ef9153af77</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-02 04:48:04</sys_created_on>
+        <sys_id>dbac10cd97d9e610fc1cf4ef9153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Developer Workflows</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>question_choice_dbac10cd97d9e610fc1cf4ef9153af27</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-02 04:48:04</sys_updated_on>
+        <text>Developer Workflows</text>
+        <value>developer</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=dbac10cd97d9e610fc1cf4ef9153af27"/>
+</record_update>

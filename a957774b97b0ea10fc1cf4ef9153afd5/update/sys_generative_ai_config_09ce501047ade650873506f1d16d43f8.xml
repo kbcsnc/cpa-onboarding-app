@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"eae11cd0472de650873506f1d16d43e1"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>d6e11cd0472de650873506f1d16d43aa</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic_small</model>
+        <name>Humanize</name>
+        <parent display_value="OneExtend Capability Definition: Humanize Text (Now LLM Generic - Now LLM Generic)">2ee11cd0472de650873506f1d16d43b3</parent>
+        <prompt>- Humanize this the following text below and put it in a bulleted list, combine bullets where necessary for conciseness, use this bullet •.
+- Pretend you are the human executing the action for any named person in context. So begin with 'I...' but do not invent or create new actions or interpretations.
+- Only output the bulleted results, do not provide any subheading or title.
+- Keep language in layman and simple terms - do not sound too technical, use active voice only, avoid repetition of words. 
+- Each bullet should be no more than 15 words.
+- If there is REQ number or RITM number, only show the REQ number.
+- If there is any approval names or groups mentioned, do mention it.
+- Keep as few bullets as possible and never exceed more than 5 bullets.
+- Apply the following personality: {{personality}} and make it very apparent in your output, keep it concise and don't add extra bullets.
+
+The text for evaluation is '{{text}}'.</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>31518</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>archived</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 07:17:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09ce501047ade650873506f1d16d43f8</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>d6e11cd0472de650873506f1d16d43aa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_generative_ai_config_09ce501047ade650873506f1d16d43f8</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:25:17</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>2</version>
+    </sys_generative_ai_config>
+</record_update>

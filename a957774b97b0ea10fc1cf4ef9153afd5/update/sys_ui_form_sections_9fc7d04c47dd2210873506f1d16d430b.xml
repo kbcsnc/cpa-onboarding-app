@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9fc7d04c47dd2210873506f1d16d430b" sys_domain="global" table="x_snc_cpa_onboar_0_onboard_req" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-04-29 01:52:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bc7d04c47dd2210873506f1d16d430d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cpa_onboar_0_onboard_req" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="Default view">9fc7d04c47dd2210873506f1d16d430b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="Default view">6f99774f97b0ea10fc1cf4ef9153af9d</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-04-29 01:52:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-04-29 01:52:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57c7d04c47dd2210873506f1d16d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cpa_onboar_0_onboard_req" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="Default view">9fc7d04c47dd2210873506f1d16d430b</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_cpa_onboar_0_onboard_req" sys_domain="global" view="Default view">17c7d04c47dd2210873506f1d16d430e</sys_ui_section>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-04-29 01:52:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_cpa_onboar_0_onboard_req</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kb.cheung</sys_created_by>
+            <sys_created_on>2025-04-29 01:52:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fc7d04c47dd2210873506f1d16d430b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cpa_onboar_0_onboard_req</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9fc7d04c47dd2210873506f1d16d430b</sys_update_name>
+            <sys_updated_by>kb.cheung</sys_updated_by>
+            <sys_updated_on>2025-04-29 01:52:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

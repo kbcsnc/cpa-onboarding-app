@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="43f69b9e974d6210fc1cf4ef9153af49" label="Onboarding Item" max_length="40" name="x_snc_cpa_onboar_0_onboarding_item" text_index="true" type="collection">
+        <element label="Catalog Item" max_length="32" name="catalog_item" reference="sc_cat_item" type="reference"/>
+        <element display="true" label="Item" max_length="255" name="item" type="string"/>
+        <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="hw"/>
+                <element inactive_on_update="false" label="Application Access" sequence="1" value="app"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="catalog_item"/>
+        </index>
+    </element>
+</database>

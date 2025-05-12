@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="DELETE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"e1bdf7844769e650873506f1d16d4320"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>55bdf7844769e650873506f1d16d4301</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic_small</model>
+        <name>Humanize</name>
+        <parent display_value="OneExtend Capability Definition: Humanize Text String (Now LLM Generic - Now LLM Generic)">1c7e8c9847e9e650873506f1d16d4373</parent>
+        <prompt>Summarize and pretend you are the human executing the action for any named person in context, keep it as concise as possible persisting human-tone and never lose context details {{text}}. Format using bullets. Just only output the results of the bullets, do not provide any subheading or title. Keep language in layman and simple terms, use active voice only, avoid repetition, change up sentences and inject emotion into each bullet with emojis. For each bullet, only include the actions and prefixed REQ numbers. Remember this is for a professional business workplace. For every piece of text that is 1 sentence, keep to one bullet and no more than 15 words. Finally end with a bang.</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>31518</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 06:11:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1aafcc5c47e9e650873506f1d16d43da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>55bdf7844769e650873506f1d16d4301</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_generative_ai_config_1aafcc5c47e9e650873506f1d16d43da</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 06:11:05</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>4</version>
+    </sys_generative_ai_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</application>
+        <file_path/>
+        <instance_id>62cb0508db73f41052cec59705961900</instance_id>
+        <instance_name>demon</instance_name>
+        <name>sys_generative_ai_config_1aafcc5c47e9e650873506f1d16d43da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config"><sys_generative_ai_config action="INSERT_OR_UPDATE"><active>false</active><additional_configurations>{"skill_config_id":"e1bdf7844769e650873506f1d16d4320"}</additional_configurations><ai_suggested>false</ai_suggested><definition>55bdf7844769e650873506f1d16d4301</definition><definition_table>sys_one_extend_capability_definition</definition_table><max_tokens>1000</max_tokens><min_word_count>-1</min_word_count><model>llm_generic_small</model><name>Humanize</name><parent display_value="OneExtend Capability Definition: Humanize Text String (Now LLM Generic - Now LLM Generic)">1c7e8c9847e9e650873506f1d16d4373</parent><prompt>Summarize and pretend you are the human executing the action for any named person in context, keep it as concise as possible persisting human-tone and never lose context details {{text}}. Format using bullets. Just only output the results of the bullets, do not provide any subheading or title. Keep language in layman and simple terms, use active voice only, avoid repetition, change up sentences and inject emotion into each bullet with emojis. For each bullet, only include the actions and prefixed REQ numbers. Remember this is for a professional business workplace. For every piece of text that is 1 sentence, keep to one bullet and no more than 15 words. Finally end with a bang.</prompt><prompt_template_role>user</prompt_template_role><request_tokens>31518</request_tokens><show_in_prompt_library>false</show_in_prompt_library><state>draft</state><sys_class_name>sys_generative_ai_config</sys_class_name><sys_created_by>kb.cheung</sys_created_by><sys_created_on>2025-05-12 06:11:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1aafcc5c47e9e650873506f1d16d43da</sys_id><sys_mod_count>1</sys_mod_count><sys_name>55bdf7844769e650873506f1d16d4301</sys_name><sys_overrides/><sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package><sys_policy/><sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope><sys_update_name>sys_generative_ai_config_1aafcc5c47e9e650873506f1d16d43da</sys_update_name><sys_updated_by>kb.cheung</sys_updated_by><sys_updated_on>2025-05-12 06:11:05</sys_updated_on><temperature>0.2</temperature><version>4</version></sys_generative_ai_config></record_update>]]></payload>
+        <payload_hash>486148582</payload_hash>
+        <record_name>55bdf7844769e650873506f1d16d4301</record_name>
+        <reverted_from/>
+        <source>2157774b97b0ea10fc1cf4ef9153afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 06:11:05</sys_created_on>
+        <sys_id>a2afcc5c47e9e650873506f1d16d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c31e504c0000001</sys_recorded_at>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 06:11:05</sys_updated_on>
+        <type>Generative AI Configuration</type>
+        <update_guid>6aafcc5c07e9e6500a762f7dbbfeb7e5</update_guid>
+        <update_guid_history>6aafcc5c07e9e6500a762f7dbbfeb7e5:486148582,deafcc5c52e9e6503efb4f89a4f410de:1168108419</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-12 06:12:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_generative_ai_config">sys_generative_ai_config</sys_db_object>
+        <sys_id>05d315d6487740f3820e79ff0782ada9</sys_id>
+        <sys_metadata>1aafcc5c47e9e650873506f1d16d43da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Humanize</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope_delete display_value="">0b578b5def474848a737eef4ce1c0c90</sys_scope_delete>
+        <sys_update_name>sys_generative_ai_config_1aafcc5c47e9e650873506f1d16d43da</sys_update_name>
+        <sys_update_version display_value="sys_generative_ai_config_1aafcc5c47e9e650873506f1d16d43da">a2afcc5c47e9e650873506f1d16d43e6</sys_update_version>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-12 06:12:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
