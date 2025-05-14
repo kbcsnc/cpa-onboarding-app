@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,allow_data_replicate=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,kagami_csindex_enabled=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="a572e80347011210873506f1d16d43e0" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="CPA Profile" max_length="32" name="x_snc_cpa_onboar_0_cpa_profile" reference="x_snc_cpa_onboar_0_cpa_profile" type="reference"/>
+        <index name="index">
+            <element name="x_snc_cpa_onboar_0_cpa_profile"/>
+        </index>
+    </element>
+</database>
