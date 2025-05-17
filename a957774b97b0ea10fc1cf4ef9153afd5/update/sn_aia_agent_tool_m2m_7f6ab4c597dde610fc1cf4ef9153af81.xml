@@ -2,7 +2,7 @@
     <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
         <active>true</active>
         <agent display_value="CPA | Confluence Access Agent">1df8308597dde610fc1cf4ef9153afad</agent>
-        <description>Provision Confluence access to the employee</description>
+        <description>Provision Confluence access to the employee by passing the onboarding request number as the 'task_num' and the new hire's ID as the 'user_sys_id'.</description>
         <display_output>false</display_output>
         <document_status/>
         <execution_mode>autopilot</execution_mode>
@@ -16,7 +16,7 @@
         <sys_created_on>2025-05-02 06:57:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7f6ab4c597dde610fc1cf4ef9153af81</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Provision Confluence Access</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_7f6ab4c597dde610fc1cf4ef9153af81</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-02 09:46:33</sys_updated_on>
+        <sys_updated_on>2025-05-17 03:13:49</sys_updated_on>
         <tool display_value="Provision Confluence Access">f36ab4c597dde610fc1cf4ef9153af7f</tool>
         <tool_attributes>{}</tool_attributes>
     </sn_aia_agent_tool_m2m>

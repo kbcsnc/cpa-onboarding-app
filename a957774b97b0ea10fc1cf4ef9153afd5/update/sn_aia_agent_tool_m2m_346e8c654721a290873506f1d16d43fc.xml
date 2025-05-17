@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="CPA | Mailbox Access Agent">515137b89795e610fc1cf4ef9153af59</agent>
+        <description>Fetches the detail of the onboarding request and provides details such as the number, sys_id, who's the new hire, who is assigned to this request and who opened it.</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Get Onboarding Request Details</name>
+        <output_transformation_strategy>none</output_transformation_strategy>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-16 03:17:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>346e8c654721a290873506f1d16d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Onboarding Request Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_346e8c654721a290873506f1d16d43fc</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-16 03:17:55</sys_updated_on>
+        <tool display_value="Get Onboarding Request Details">f06ec8254721a290873506f1d16d4327</tool>
+        <tool_attributes>{}</tool_attributes>
+    </sn_aia_agent_tool_m2m>
+</record_update>

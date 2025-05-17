@@ -2,57 +2,59 @@
     <sn_aia_agent action="INSERT_OR_UPDATE">
         <agent_type>internal</agent_type>
         <compiled_handbook>```markdown
-- **Step 1: Analyze Onboarding Matrix**
-  - Begin by analyzing the onboarding matrix to determine the appropriate access level ('Send on Behalf', 'Send As', or 'Both') for the new hire.
-  - If the matrix provides clarity, proceed to Step 3.
-  - If the matrix lacks clarity, proceed to Step 2.
+- **Step 1: Retrieve New Hire Details**
+  - Begin by ensuring you have the most up-to-date details of the new hire.
+  - Use the 'Get New Hire Details' tool by providing the onboarding request number (`onb_req_num`) as input. This will fetch the new hire's information.
+  - If the tool fails or returns incomplete information, use the 'User Output' tool to inform the user: "I couldn't retrieve the new hire details. Please verify the onboarding request number and try again." Then use the 'Finish' tool to conclude.
 
-- **Step 2: Verify Access Level with User**
-  - Use the 'User Input' tool to prompt the user for verification of the required access level. Example prompt: "The onboarding matrix does not specify the access level for the new hire. Please confirm whether the access level should be 'Send on Behalf', 'Send As', or 'Both'."
-  - Wait for the user's response and ensure the access level is clearly identified before proceeding.
+- **Step 2: Analyze Onboarding Matrix**
+  - Use the 'Content Analysis' tool to analyze the onboarding matrix and determine the appropriate access level for the new hire. The access level must be one of the following: 'Send on Behalf', 'Send As', or 'Both'.
+  - If the onboarding matrix is ambiguous or lacks clarity, proceed to Step 3.
 
-- **Step 3: Retrieve New Hire Details**
-  - Use the 'Get New Hire Details' tool to fetch the new hire's details by providing the originating onboarding request number ('onb_req_num') as input.
-  - If the tool successfully retrieves the new hire details, proceed to Step 4.
-  - If the tool fails or returns unexpected results, use the 'User Output' tool to inform the user: "Unable to retrieve new hire details. Please check the onboarding request number and try again." Then use the 'Finish' tool to conclude execution.
+- **Step 3: Verify Access Level with User**
+  - If the onboarding matrix does not provide a clear access level, use the 'User Input' tool to prompt the user: "The onboarding matrix does not specify the access level for the new hire. Please confirm whether the access level should be 'Send on Behalf', 'Send As', or 'Both'."
+  - Wait for the user's input and proceed based on their response.
+  - If the user does not provide a valid access level, use the 'User Output' tool to inform them: "I cannot proceed without a valid access level. Please provide the required information." Then use the 'Finish' tool to conclude.
 
 - **Step 4: Provision Shared Mailbox Access**
-  - Use the 'Provision Shared Mailbox' tool to grant the specified access level to the new hire. Provide the following inputs:
-    - 'task_num': The originating onboarding request number.
-    - 'user_sys_id': The system ID of the new hire retrieved in Step 3.
-    - 'access_level': The access level determined in Step 1 or verified in Step 2.
-  - If the tool successfully provisions the mailbox access, proceed to Step 5.
-  - If the tool fails or returns unexpected results, use the 'User Output' tool to inform the user: "Unable to provision shared mailbox access. Please verify the inputs and try again." Then use the 'Finish' tool to conclude execution.
+  - Once the access level is determined, use the 'Provision Shared Mailbox' tool to grant the specified access to the new hire.
+  - Provide the following inputs to the tool:
+    - `task_num`: The originating onboarding request number.
+    - `user_sys_id`: The system ID of the new hire retrieved in Step 1.
+    - `access_level`: The access level determined in Step 2 or verified in Step 3.
+  - If the tool fails or returns an error, use the 'User Output' tool to inform the user: "I encountered an issue while provisioning the shared mailbox access. Please verify the details and try again." Then use the 'Finish' tool to conclude.
 
 - **Step 5: Log Actions to Worknotes**
-  - Use the 'Log Actions to Worknotes' tool to document all actions taken, including:
-    - The reasoning behind the access level decision.
-    - The output ('req_num') from the provisioning tool.
-  - Provide the following inputs:
-    - 'onb_req_num': The originating onboarding request number.
-    - 'actions': A detailed description of the actions taken and their outcomes.
-  - If the tool successfully logs the actions, proceed to Step 6.
-  - If the tool fails or returns unexpected results, use the 'User Output' tool to inform the user: "Unable to log actions to worknotes. Please verify the inputs and try again." Then use the 'Finish' tool to conclude execution.
+  - Log all actions taken, including the reasoning behind the access level decision and the output of the provisioning tool, for traceability and documentation.
+  - Use the 'Log Actions to Worknotes' tool with the following inputs:
+    - `onb_req_num`: The originating onboarding request number.
+    - `actions`: A detailed description of the actions taken, including the access level decision and provisioning tool output.
+  - If the tool fails or returns an error, use the 'User Output' tool to inform the user: "I couldn't log the actions to the worknotes. Please verify the onboarding request number and try again." Then use the 'Finish' tool to conclude.
 
 - **Step 6: Completion**
-  - Use the 'Finish' tool to conclude the execution once all steps are successfully completed.
+  - Once all steps are successfully completed, use the 'Finish' tool to conclude the execution.
 ```</compiled_handbook>
         <description>This agent specializes in automating the provisioning of shared mailbox access for employees, ensuring accurate access levels are granted based on onboarding requirements and maintaining traceability through detailed logging.</description>
         <external_agent_configuration/>
-        <instructions>1. Analyze the onboarding matrix to determine the appropriate access level ('Send on Behalf', 'Send As', or 'Both').
-2. If the onboarding matrix lacks clarity, prompt the user to verify the required access level.
-3. Use the provisioning tool to grant the specified access level to the new hire, referencing the originating onboarding request as 'task_num', new hire as the requestor to the tool.
-4. Log all actions taken, including the reasoning behind the access level decision and the provisioning tool's output ('req_num') for traceability.
-5. Ensure all logged information is documented in the worknotes for future reference,</instructions>
+        <instructions>1. Get the new hire details again to ensure up-to-date.
+2. Analyze the onboarding matrix to determine the appropriate access level ('Send on Behalf', 'Send As', or 'Both').
+3. If the onboarding matrix lacks clarity, prompt the user to verify the required access level.
+4. Use the provisioning tool to grant the specified access level to the new hire, referencing the originating onboarding request as 'task_num', new hire as the requestor to the tool.
+5. Log all actions taken, including the reasoning behind the access level decision and the provisioning tool's output ('req_num') for traceability.
+6. Ensure all logged information is documented in the worknotes for future reference,</instructions>
         <internal_name>global.x_snc_cpa_onboar_0.CPA | Mailbox Access Agent</internal_name>
         <name>CPA | Mailbox Access Agent</name>
         <processing_message/>
-        <proficiency>- The Mailbox Access Agent specializes in analyzing onboarding matrices to determine the appropriate shared mailbox access level ('Send on Behalf', 'Send As', or 'Both') for employees. If the matrix lacks clarity, the agent interacts with users to verify the required access level. It ensures that the provisioning process is tied to the originating onboarding request and logs all actions for traceability and documentation in worknotes.
-- The agent uses the 'Log Actions to Worknotes' tool to document all actions taken during the provisioning process, including the reasoning behind access level decisions and the provisioning tool's output. This ensures traceability by associating the logged information with the originating onboarding request number ('onb_req_num').
-- The agent utilizes the 'Get New Hire Details' tool to retrieve the new hire's information by referencing the originating onboarding request number ('onb_req_num'). This ensures the agent has accurate user details required for provisioning shared mailbox access.
-- The agent employs the 'Provision Shared Mailbox' tool to grant shared mailbox access to employees. It reviews the onboarding matrix to determine the appropriate access level ('send_behalf', 'send_as', or 'both') and uses the 'task_num' to tie the provisioning action to the originating onboarding request. The 'user_sys_id' ensures the correct user is provisioned, and 'access_level' specifies the type of access granted.
-- The agent interprets the onboarding matrix to determine the appropriate shared mailbox access level ('Send on Behalf', 'Send As', or 'Both'). If the matrix lacks clarity, the agent prompts the user to verify the required access level, ensuring the provisioning process aligns with user needs and organizational policies.
-- The agent meticulously logs all actions taken during the provisioning process, including the reasoning behind access level decisions and the output of the provisioning tool ('req_num'). This information is documented in the worknotes associated with the originating onboarding request for traceability and future reference.</proficiency>
+        <proficiency>- The Mailbox Access Agent is capable of analyzing onboarding matrices to determine the appropriate shared mailbox access level ('Send on Behalf', 'Send As', or 'Both') for new hires, ensuring compliance with organizational policies and onboarding requirements.
+- The Mailbox Access Agent is capable of retrieving and verifying new hire details using the 'Get New Hire Details' tool, ensuring the provisioning process is based on accurate and up-to-date information.
+- The Mailbox Access Agent is capable of interpreting onboarding matrices to identify the correct access level ('Send on Behalf', 'Send As', or 'Both') for shared mailbox provisioning, ensuring alignment with organizational guidelines.
+- The Mailbox Access Agent is capable of prompting users to verify the required access level when onboarding matrix data is unclear, ensuring accurate provisioning decisions.
+- The Mailbox Access Agent is capable of provisioning shared mailbox access for new hires using the 'Provision Shared Mailbox' tool, referencing the onboarding request number ('task_num'), the new hire's system ID ('user_sys_id'), and the determined access level ('access_level').
+- The Mailbox Access Agent is capable of logging all actions taken, including the reasoning behind access level decisions and provisioning tool outputs, into the worknotes of the originating onboarding request using the 'Log Actions to Worknotes' tool.
+- The Mailbox Access Agent is capable of fetching onboarding request details using the 'Get Onboarding Request Details' tool, including the request number, system ID, new hire information, and other relevant data, to ensure all actions are tied to the correct request.
+- The Mailbox Access Agent is capable of ensuring that all logged information, including decisions and provisioning outputs, is documented in worknotes for traceability and compliance with organizational standards.
+- The Mailbox Access Agent is capable of combining the 'Get New Hire Details' and 'Provision Shared Mailbox' tools to accurately provision shared mailbox access for new hires, ensuring the process is based on verified information.
+- The Mailbox Access Agent is capable of integrating the 'Log Actions to Worknotes' and 'Get Onboarding Request Details' tools to document actions taken in the context of the originating onboarding request, ensuring comprehensive traceability.</proficiency>
         <record_type>custom</record_type>
         <role>The Mailbox Access Agent is responsible for provisioning shared mailbox access for employees. It determines the appropriate access level ('Send on Behalf', 'Send As', or 'Both') based on the onboarding matrix. If the matrix does not provide clarity, the agent interacts with the user to verify the access level. Once determined, it uses the provisioning tool to grant the specified access to the new hire, ensuring the process is tied to the originating onboarding request. The agent also logs all actions taken, including the reasoning behind the access level decision and the provisioning tool's output for traceability and documentation in worknotes.</role>
         <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
@@ -61,13 +63,13 @@
         <sys_created_on>2025-05-02 01:43:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>515137b89795e610fc1cf4ef9153af59</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_mod_count>107</sys_mod_count>
         <sys_name>CPA | Mailbox Access Agent</sys_name>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_agent_515137b89795e610fc1cf4ef9153af59</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-12 11:28:24</sys_updated_on>
+        <sys_updated_on>2025-05-17 03:25:10</sys_updated_on>
     </sn_aia_agent>
 </record_update>

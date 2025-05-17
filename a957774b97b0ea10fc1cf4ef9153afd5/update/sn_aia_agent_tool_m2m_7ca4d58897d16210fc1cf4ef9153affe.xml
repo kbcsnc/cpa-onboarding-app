@@ -2,7 +2,7 @@
     <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
         <active>true</active>
         <agent display_value="CPA | Identify Hardware Agent">c909583b9741ea10fc1cf4ef9153af1e</agent>
-        <description>Log the actions of what the AI agent did back to the worknotes of the originating onboarding request by passing the onboarding request number as 'onb_req_num'.</description>
+        <description>Log the actions of what the AI agent did back to the worknotes of the originating onboarding request by passing the onboarding request number as 'onb_req_num', example ONB00001.</description>
         <display_output>false</display_output>
         <document_status/>
         <execution_mode>autopilot</execution_mode>
@@ -16,7 +16,7 @@
         <sys_created_on>2025-04-29 06:18:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7ca4d58897d16210fc1cf4ef9153affe</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Log Actions to Worknotes</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_7ca4d58897d16210fc1cf4ef9153affe</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-09 03:08:33</sys_updated_on>
+        <sys_updated_on>2025-05-16 03:47:49</sys_updated_on>
         <tool display_value="Log Actions to Worknotes">30a49d4897d16210fc1cf4ef9153aff2</tool>
         <tool_attributes>{}</tool_attributes>
     </sn_aia_agent_tool_m2m>

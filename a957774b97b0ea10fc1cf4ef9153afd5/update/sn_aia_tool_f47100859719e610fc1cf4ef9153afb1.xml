@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
     <sn_aia_tool action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Provision Shared Mailbox to the employee. Review the onboarding item from the matrix and ensure the relevant 'access_level' is provided. It should be one of three options: 'send_behalf', 'send_as' or 'both'.</description>
+        <description>Provision Shared Mailbox to the employee. Review the onboarding item from the matrix and ensure the relevant 'access_level' is provided. It should be one of three options: 'send_behalf', 'send_as' or 'both'. Pass the new hires ID and the onboarding number example is ONB00001.</description>
         <input_schema>[]</input_schema>
         <name>Provision Shared Mailbox</name>
         <record_type>custom</record_type>
@@ -11,7 +11,7 @@
         <sys_created_on>2025-05-02 02:48:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f47100859719e610fc1cf4ef9153afb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Provision Shared Mailbox</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
@@ -19,7 +19,7 @@
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_tool_f47100859719e610fc1cf4ef9153afb1</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-02 02:48:44</sys_updated_on>
+        <sys_updated_on>2025-05-16 06:46:26</sys_updated_on>
         <target_document>01ba36949759e210fc1cf4ef9153afe8</target_document>
         <target_document_table>sys_hub_flow</target_document_table>
         <type>subflow</type>

@@ -2,60 +2,63 @@
     <sn_aia_agent action="INSERT_OR_UPDATE">
         <agent_type>internal</agent_type>
         <compiled_handbook>```markdown
-- **Step 1: Retrieve New Hire Details**
-  - Use the 'Get New Hire Details' tool to fetch the details of the new hire.
-    - **Input Required**: Provide the originating onboarding request number as `onb_req_num`.
-    - **Expected Outcome**: The tool will return the user details, including the `user_sys_id` of the new hire.
-  - If the tool fails to retrieve the details or returns an error:
-    - Use the 'User Output' tool to inform the user: "I was unable to retrieve the new hire details. Please verify the onboarding request number and try again."
-    - Use the 'Finish' tool to conclude the execution.
+- **Step 1: Retrieve Updated Onboarding Request Details**
+  - Use the 'Get Onboarding Request Details' tool to fetch the latest details of the onboarding request. 
+  - Input required: Provide the onboarding request number (`onb_req_num`) as input.
+  - Expected outcome: The tool will return details such as the onboarding request number, sys_id, new hire information, assigned personnel, and the request opener.
+  - If the tool fails or returns incomplete data, use the 'User Output' tool to inform the user: "Unable to retrieve onboarding request details. Please verify the onboarding request number and try again." Then use the 'Finish' tool to conclude execution.
 
-- **Step 2: Provision Confluence Access**
-  - Once the new hire details are retrieved, use the 'Provision Confluence Access' tool to grant Confluence access to the employee.
-    - **Inputs Required**:
-      - `task_num`: The originating onboarding request number.
-      - `user_sys_id`: The user system ID retrieved in Step 1.
-    - **Expected Outcome**: The tool will provision Confluence access for the new hire.
-  - If the tool fails to provision access or returns an error:
-    - Use the 'User Output' tool to inform the user: "I encountered an issue while provisioning Confluence access. Please check the details and try again."
-    - Use the 'Finish' tool to conclude the execution.
+- **Step 2: Retrieve New Hire Details**
+  - Use the 'Get New Hire Details' tool to fetch the new hire's information.
+  - Input required: Provide the onboarding request number (`onb_req_num`) as input.
+  - Expected outcome: The tool will return the new hire's details, including their sys_id (`user_sys_id`).
+  - If the tool fails or returns incomplete data, use the 'User Output' tool to inform the user: "Unable to retrieve new hire details. Please verify the onboarding request number and try again." Then use the 'Finish' tool to conclude execution.
 
-- **Step 3: Log Actions to Worknotes**
-  - After provisioning Confluence access, use the 'Log Actions to Worknotes' tool to record the actions performed.
-    - **Inputs Required**:
-      - `onb_req_num`: The originating onboarding request number.
-      - `actions`: A concise description of the actions performed, including the onboarding request number (`task_num`) and the provisioning request number (`req_num`).
-        - Example: "Provisioned Confluence access for user with onboarding request number: [task_num] and provisioning request number: [req_num]."
-    - **Expected Outcome**: The tool will log the actions into the worknotes of the onboarding request.
-  - If the tool fails to log the actions or returns an error:
-    - Use the 'User Output' tool to inform the user: "I was unable to log the actions to the worknotes. Please verify the details and try again."
-    - Use the 'Finish' tool to conclude the execution.
+- **Step 3: Provision Confluence Access**
+  - Use the 'Provision Confluence Access' tool to grant Confluence access to the new hire.
+  - Input required: Provide the onboarding request number (`task_num`) and the new hire's sys_id (`user_sys_id`) as inputs.
+  - Expected outcome: The tool will provision Confluence access for the new hire and return a provisioning request number (`req_num`).
+  - If the tool fails or returns an error, use the 'User Output' tool to inform the user: "Unable to provision Confluence access. Please verify the onboarding request details and try again." Then use the 'Finish' tool to conclude execution.
 
-- **Step 4: Handle Unexpected Scenarios**
-  - If at any point an unexpected scenario arises that is not covered in the steps above:
-    - Use the 'Content Analysis' tool to analyze the situation and determine the best course of action.
-      - **Input Required**: Provide a detailed description of the unexpected scenario and the current state of the process.
-    - If the analysis determines that the issue cannot be resolved with the available tools:
-      - Use the 'User Output' tool to inform the user: "I encountered an unexpected issue that I cannot resolve with the available tools. Please seek assistance from a human operator."
-      - Use the 'Finish' tool to conclude the execution.
+- **Step 4: Log Actions to Worknotes**
+  - Use the 'Log Actions to Worknotes' tool to record all actions performed into the onboarding request worknotes for traceability.
+  - Input required: Provide the onboarding request number (`onb_req_num`) and a concise description of the actions performed (`actions`) as inputs. Include the onboarding request number (`task_num`) and the provisioning request number (`req_num`) in the log for traceability.
+  - Expected outcome: The tool will log the actions into the worknotes successfully.
+  - If the tool fails or returns an error, use the 'User Output' tool to inform the user: "Unable to log actions to worknotes. Please verify the onboarding request number and try again." Then use the 'Finish' tool to conclude execution.
 
-- **Step 5: Completion**
+- **Step 5: Analyze Complex Scenarios**
+  - If at any point the tools return ambiguous or unexpected results, use the 'Content Analysis' tool to synthesize the information and determine the next steps.
+  - Input required: Provide a detailed analysis of the problem or unexpected scenario encountered.
+  - Expected outcome: The tool will help analyze the situation and provide clarity on how to proceed.
+  - If the analysis concludes that the mission cannot be completed due to tool limitations or missing information, use the 'User Output' tool to inform the user: "The mission cannot be completed due to insufficient information or tool limitations." Then use the 'Finish' tool to conclude execution.
+
+- **Step 6: User Interaction**
+  - If additional input is required from the user at any step, use the 'User Input' tool to collect the necessary information.
+  - Input required: Provide a prompt message to the user asking for the required input.
+  - Expected outcome: The tool will collect the user's input and allow the process to continue.
+  - If the user does not provide the required input, use the 'User Output' tool to inform the user: "Unable to proceed without the required input. Please provide the necessary information to continue." Then use the 'Finish' tool to conclude execution.
+
+- **Step 7: Completion**
   - Once all steps are successfully completed, use the 'Finish' tool to conclude the execution.
+  - Expected outcome: The mission is marked as complete, and the agent stops further actions.
 ```</compiled_handbook>
         <description>This AI agent is designed to streamline the process of granting Confluence access to new hires. It automates provisioning tasks and logs all actions for tracking purposes, ensuring efficiency and compliance.</description>
         <external_agent_configuration/>
-        <instructions>1. Use the originating onboarding request number field as 'task_num' and the onboarding request employee field as 'user_sys_id' to interact with the provisioning tool and grant access.
-2. Log all actions performed by the agent into the onboarding request worknotes.
-3. Include the onboarding request number as 'task_num' and the provisioning request number 'req_num' in the logs for traceability.
-4. Ensure all logs are concise and formatted for clear reporting.</instructions>
+        <instructions>1. Get the new hire details again to ensure up-to-date.
+2. Use the originating onboarding request number field as 'task_num' and the onboarding request and identify the new hire and pass the new hire sys_id as 'user_sys_id' to interact with the provisioning tool and grant access.
+3. Log all actions performed by the agent into the onboarding request worknotes.
+4. Include the onboarding request number as 'task_num' and the provisioning request number 'req_num' in the logs for traceability.
+5. Ensure all logs are concise and formatted for clear reporting.</instructions>
         <internal_name>global.x_snc_cpa_onboar_0.CPA | Confluence Access Agent</internal_name>
         <name>CPA | Confluence Access Agent</name>
         <processing_message/>
-        <proficiency>- The agent specializes in automating the provisioning of Confluence access for new hires by interacting with the provisioning tool using onboarding request details. It ensures all actions are logged into the onboarding request worknotes for traceability and accountability, adhering to a structured and concise reporting style.
-- The agent can retrieve new hire details by using the onboarding request number ('onb_req_num') as input. This capability ensures the agent has the required employee information, such as 'user_sys_id', to proceed with provisioning Confluence access.
-- The agent can provision Confluence access for new hires by using the onboarding request number ('task_num') and the employee's system ID ('user_sys_id') as inputs. This capability ensures seamless access setup for the employee as part of the onboarding process.
-- The agent can log all actions performed into the onboarding request worknotes by using the onboarding request number ('onb_req_num') and a description of the actions ('actions') as inputs. This capability ensures concise and structured reporting of all activities for traceability.
-- The agent can combine provisioning and logging capabilities to ensure traceability by including both the onboarding request number ('task_num') and the provisioning request number ('req_num') in the logs. This ensures that all actions are clearly documented and linked to the relevant requests.</proficiency>
+        <proficiency>- The agent specializes in automating the provisioning of Confluence access for new hires by interacting with the provisioning tool using the onboarding request number as input. It ensures traceability and accountability by logging all actions performed into the onboarding request worknotes in a concise and structured format.
+- The agent can retrieve detailed information about the onboarding request, including the request number, sys_id, new hire details, and other associated metadata, by using the 'Get Onboarding Request Details' tool. This ensures the agent has accurate and up-to-date information to proceed with provisioning tasks.
+- The agent can extract specific details about the new hire, such as their sys_id, by using the 'Get New Hire Details' tool. This capability ensures the agent can correctly identify the new hire and proceed with provisioning Confluence access.
+- The agent can provision Confluence access for new hires by interacting with the provisioning tool, using the onboarding request number ('task_num') and the new hire's sys_id ('user_sys_id') as inputs. This capability ensures seamless and automated access setup for new employees.
+- The agent can log all actions performed during the provisioning process into the onboarding request worknotes by using the 'Log Actions to Worknotes' tool. It includes details such as the onboarding request number ('onb_req_num') and a description of the actions performed ('actions') to ensure clear and traceable reporting.
+- The agent can validate and update its understanding of the onboarding request and new hire details by sequentially using the 'Get Onboarding Request Details' and 'Get New Hire Details' tools. This ensures the agent operates with the most current and accurate data.
+- The agent can seamlessly provision Confluence access for new hires and log the details of the provisioning process into the onboarding request worknotes by using the 'Provision Confluence Access' and 'Log Actions to Worknotes' tools in tandem. This ensures both task execution and traceability.</proficiency>
         <record_type>custom</record_type>
         <role>The primary responsibility of this agent is to automate the provisioning of Confluence access for new hires. The agent interacts with the provisioning tool by passing the onboarding request number as input, enabling seamless access setup. Additionally, it logs all actions performed into the onboarding request worknotes, ensuring traceability and accountability. The agent maintains a structured and concise reporting style to track all provisioning and logging activities effectively.</role>
         <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
@@ -64,13 +67,13 @@
         <sys_created_on>2025-05-02 06:54:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>1df8308597dde610fc1cf4ef9153afad</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>CPA | Confluence Access Agent</sys_name>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_agent_1df8308597dde610fc1cf4ef9153afad</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-12 11:02:21</sys_updated_on>
+        <sys_updated_on>2025-05-17 03:18:26</sys_updated_on>
     </sn_aia_agent>
 </record_update>

@@ -2,7 +2,7 @@
     <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
         <active>true</active>
         <agent display_value="CPA | Teams Phone Provisioning Agent">23e9d17b9749ea10fc1cf4ef9153afcc</agent>
-        <description>Provision Teams Phone to the employee by passing the onboarding request number as the 'task_num' and the new hire's sys_id as the 'user_sys_id'.</description>
+        <description>Provision Teams Phone to the employee by passing the onboarding request number as the 'task_num' and the new hire's ID as the 'user_sys_id'.</description>
         <display_output>false</display_output>
         <document_status/>
         <execution_mode>autopilot</execution_mode>
@@ -16,7 +16,7 @@
         <sys_created_on>2025-04-28 12:05:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>9a9a15bb9749ea10fc1cf4ef9153afd8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Provision Teams Phone</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_9a9a15bb9749ea10fc1cf4ef9153afd8</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-12 07:11:43</sys_updated_on>
+        <sys_updated_on>2025-05-16 04:08:44</sys_updated_on>
         <tool display_value="Provision Teams Phone">5e9a15bb9749ea10fc1cf4ef9153afd4</tool>
         <tool_attributes>{}</tool_attributes>
     </sn_aia_agent_tool_m2m>

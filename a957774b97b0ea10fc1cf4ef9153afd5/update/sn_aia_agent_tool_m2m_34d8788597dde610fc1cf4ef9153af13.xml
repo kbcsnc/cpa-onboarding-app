@@ -2,7 +2,7 @@
     <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
         <active>true</active>
         <agent display_value="CPA | Laptop Provisioning Agent">32eb80019799e610fc1cf4ef9153af73</agent>
-        <description>Provision laptop to the employee. Review the onboarding item from the matrix and ensure the relevant 'expected_usage' is provided. It should be one of two options: 'back_office' or 'developer'.</description>
+        <description>Provision laptop to the employee. Review the onboarding item from the matrix and ensure the relevant 'expected_usage' is provided. It should be one of two options: 'back_office' or 'developer'. Pass the new hires ID and the onboarding number, example is ONB00001.</description>
         <display_output>false</display_output>
         <document_status/>
         <execution_mode>autopilot</execution_mode>
@@ -16,7 +16,7 @@
         <sys_created_on>2025-05-02 06:50:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>34d8788597dde610fc1cf4ef9153af13</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Provision Laptop</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_34d8788597dde610fc1cf4ef9153af13</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-02 09:46:20</sys_updated_on>
+        <sys_updated_on>2025-05-16 08:17:12</sys_updated_on>
         <tool display_value="Provision Laptop">b4d8788597dde610fc1cf4ef9153af0f</tool>
         <tool_attributes>{}</tool_attributes>
     </sn_aia_agent_tool_m2m>

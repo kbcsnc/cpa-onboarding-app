@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Fetches the detail of the onboarding request and provides details such as the number, sys_id, who's the new hire, who is assigned to this request and who opened it.</description>
+        <input_schema>[]</input_schema>
+        <name>Get Onboarding Request Details</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[undefined]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-05-16 03:16:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e7fd80254721a290873506f1d16d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Onboarding Request Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_tool_e7fd80254721a290873506f1d16d4305</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-05-16 03:16:12</sys_updated_on>
+        <target_document>49628ca947ad6290873506f1d16d435a</target_document>
+        <target_document_table>sys_hub_action_type_definition</target_document_table>
+        <type>action</type>
+    </sn_aia_tool>
+</record_update>
