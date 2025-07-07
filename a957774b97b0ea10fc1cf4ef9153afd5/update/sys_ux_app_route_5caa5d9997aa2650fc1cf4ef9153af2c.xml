@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId,title,view</fields>
+        <icon/>
+        <name>SOW Form Modal V2</name>
+        <optional_parameters>saveLabel,cancelLabel,parentFormFields,setFieldOnSave,setFieldOnLoad,isGFormSave,hideOptionalFields,onclickAppseeEvent,modalTitle</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Incident Overview SNC copy">839a199997aa2650fc1cf4ef9153afdf</parent_macroponent>
+        <parent_macroponent_composition_element_id>modal_viewport</parent_macroponent_composition_element_id>
+        <route_type>sowformmodalv2</route_type>
+        <screen_type display_value="SOW Form Modal V2">5332a7a8530131102f10ddeeff7b1225</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:19</sys_created_on>
+        <sys_id>5caa5d9997aa2650fc1cf4ef9153af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SOW Form Modal V2</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_app_route_5caa5d9997aa2650fc1cf4ef9153af2c</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:19</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=5caa5d9997aa2650fc1cf4ef9153af2c"/>
+</record_update>

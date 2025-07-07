@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Incident Overview SNC copy">839a199997aa2650fc1cf4ef9153afdf</macroponent>
+        <name>Set Impact Related lists</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Assets"
+    }
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({api, event, helpers, imports}) {
+    if (!api.context.props.relatedLists || api.context.props.relatedLists.length == 0 || api.state.isRelatedListInitialized == true ) {
+        return;
+    }
+    var impactCards = [{
+        table: "task_ci",
+        relatedList: "task_ci.task"
+    }, {
+        table: "task_cmdb_ci_service",
+        relatedList: "task_cmdb_ci_service.task"
+    }, {
+        table: "task_ci",
+        relatedList: "task_ci.task",
+        customProps: {
+            idPart: ".ci_has_assets",
+            title: await helpers.translate("Assets"),
+            fixedQueryPart: "^ci_item.asset!=NULL",
+            view: "sow_incident_overview_asset"
+        }
+    }];
+
+    var impactRelatedLists = {};
+    impactCards.forEach((requiredRelatedList) => {
+        let relatedList = api.context.props.relatedLists.filter((rl) => {return rl.table ==requiredRelatedList.table && rl.value == requiredRelatedList.relatedList;});
+        if (relatedList && relatedList.length > 0) {
+            let variableProps = {
+                id: relatedList[0].table + "-" + relatedList[0].value,
+                displayName: relatedList[0].displayName,
+                fixedQuery: relatedList[0].fixedQuery,
+                view: "sow_incident_overview"
+            };
+            if(requiredRelatedList.customProps) {
+                variableProps.id += requiredRelatedList.customProps.idPart;
+                variableProps.displayName = requiredRelatedList.customProps.title;
+                variableProps.fixedQuery += requiredRelatedList.customProps.fixedQueryPart; 
+                variableProps.view = requiredRelatedList.customProps.view; 
+            }
+            impactRelatedLists[variableProps.id] = {
+                "id": variableProps.id,
+                "title": variableProps.displayName,
+                "table": relatedList[0].table,
+                "parentTable": relatedList[0].parentTable,
+                "relatedListName": relatedList[0].value,
+                "parentRecordSysId": api.context.props.sysId,
+                "fixedQuery": variableProps.fixedQuery,
+                "view": variableProps.view
+            };
+        }
+    });
+    
+    api.setState('impactRelatedLists', impactRelatedLists);
+    api.setState('selectedImpactRelatedList', impactRelatedLists['task_ci-task_ci.task']);
+    api.setState('isRelatedListInitialized', true);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:17</sys_created_on>
+        <sys_id>fb9a1d9997aa2650fc1cf4ef9153af53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Impact Related lists</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_client_script_fb9a1d9997aa2650fc1cf4ef9153af53</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:17</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

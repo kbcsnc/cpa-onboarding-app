@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>RECORD_SRP_UI_CTRL#REQUEST_EMAIL_ACTION_RELAY_839a199997aa2650fc1cf4ef9153afdf</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Form Controller [Activity stream] Request email action Relay (Incident Overview)</label>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": "Sys ID of the email_draft record. Use -1 to create a new record.",
+        "fieldType": "string",
+        "label": "Sys ID",
+        "name": "sysId",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "Record table that your email will be associated with.",
+        "fieldType": "string",
+        "label": "Target table",
+        "name": "targetTable",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "Record ID that your email will be associated with.",
+        "fieldType": "string",
+        "label": "Target record",
+        "name": "targetRecord",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "Type of reply. Options include reply, replyAll, or forward. Leave empty if not a reply.",
+        "fieldType": "string",
+        "label": "Reply Type",
+        "name": "replyType",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "Sys ID of the email record that you are replying to, leave empty if is not a reply.",
+        "fieldType": "string",
+        "label": "Reply ID",
+        "name": "replyId",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": false,
+        "description": "Shows or hides email details, including the To, Cc and Bcc fields.",
+        "fieldType": "boolean",
+        "label": "Show email details",
+        "name": "showEmailDetails",
+        "type": "boolean",
+        "valueType": "boolean"
+    },
+    {
+        "defaultValue": false,
+        "description": "Should transfer focus to the email tab upon updating the  mini email composer payload",
+        "fieldType": "boolean",
+        "label": "Should focus email tab",
+        "name": "shouldFocus",
+        "type": "boolean",
+        "valueType": "boolean"
+    },
+    {
+        "defaultValue": 0,
+        "description": "Timestamp in milliseconds at the moment the action was requested",
+        "fieldType": "number",
+        "label": "Timestamp",
+        "name": "timestamp",
+        "type": "number",
+        "valueType": "number"
+    },
+    {
+        "description": "Details of the template to be applied",
+        "fieldType": "json",
+        "label": "Template details",
+        "name": "templateDetails",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "templateSysId": {
+                        "type": "string"
+                    },
+                    "templateTable": {
+                        "type": "string"
+                    },
+                    "templateTitle": {
+                        "type": "string"
+                    },
+                    "timestamp": {
+                        "type": "number"
+                    }
+                },
+                "type": "object"
+            }
+        }
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Details of the template to be applied",
+  "comment" : ""
+}, {
+  "message" : "Record ID that your email will be associated with.",
+  "comment" : ""
+}, {
+  "message" : "Record table that your email will be associated with.",
+  "comment" : ""
+}, {
+  "message" : "Reply ID",
+  "comment" : ""
+}, {
+  "message" : "Reply Type",
+  "comment" : ""
+}, {
+  "message" : "Should focus email tab",
+  "comment" : ""
+}, {
+  "message" : "Should transfer focus to the email tab upon updating the  mini email composer payload",
+  "comment" : ""
+}, {
+  "message" : "Show email details",
+  "comment" : ""
+}, {
+  "message" : "Shows or hides email details, including the To, Cc and Bcc fields.",
+  "comment" : ""
+}, {
+  "message" : "Sys ID",
+  "comment" : ""
+}, {
+  "message" : "Sys ID of the email record that you are replying to, leave empty if is not a reply.",
+  "comment" : ""
+}, {
+  "message" : "Sys ID of the email_draft record. Use -1 to create a new record.",
+  "comment" : ""
+}, {
+  "message" : "Target record",
+  "comment" : ""
+}, {
+  "message" : "Target table",
+  "comment" : ""
+}, {
+  "message" : "Template details",
+  "comment" : ""
+}, {
+  "message" : "Timestamp",
+  "comment" : ""
+}, {
+  "message" : "Timestamp in milliseconds at the moment the action was requested",
+  "comment" : ""
+}, {
+  "message" : "Type of reply. Options include reply, replyAll, or forward. Leave empty if not a reply.",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:19</sys_created_on>
+        <sys_id>00aa1d9997aa2650fc1cf4ef9153aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Form Controller [Activity stream] Request email action Relay (Incident Overview)</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_event_00aa1d9997aa2650fc1cf4ef9153aff9</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=00aa1d9997aa2650fc1cf4ef9153aff9"/>
+</record_update>

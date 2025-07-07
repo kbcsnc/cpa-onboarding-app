@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_usecase">
+    <sn_aia_usecase action="INSERT_OR_UPDATE">
+        <base_plan>This agentic workflow specializes in analyzing and recommending onboarding requests based on historical data from employees under the same manager.
+
+1. Identify all employees reporting to the same manager.
+2. Retrieve onboarding requests submitted by these employees.
+3. Detect and rank common onboarding requests based on frequency and relevance.
+4. Format and present the ranked suggestions to the user for review.
+5. Log the recommendations into the worknotes for future reference.</base_plan>
+        <description>This workflow identifies common onboarding requests among employees reporting to the same manager, ranks them, and provides actionable recommendations. It is designed to streamline the onboarding process for managers and HR teams.</description>
+        <execution_mode>copilot</execution_mode>
+        <internal_name>global.x_snc_cpa_onboar_0.CPA | Onboarding Request Suggestions</internal_name>
+        <name>CPA | Onboarding Request Suggestions</name>
+        <record_type>custom</record_type>
+        <strategy display_value="ReActive Planner">b264c470ff1022106c36ffffffffff67</strategy>
+        <sys_class_name>sn_aia_usecase</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-07 04:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f515989a476ae610873506f1d16d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CPA | Onboarding Request Suggestions</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_aia_usecase_f515989a476ae610873506f1d16d4317</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-07 04:59:10</sys_updated_on>
+        <team display_value="CPA | Onboarding Request Suggestions">4b38d85247aae610873506f1d16d439f</team>
+    </sn_aia_usecase>
+</record_update>

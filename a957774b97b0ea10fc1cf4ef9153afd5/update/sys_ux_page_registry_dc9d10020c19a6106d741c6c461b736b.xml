@@ -12,14 +12,14 @@
         <sys_created_by>kb.cheung</sys_created_by>
         <sys_created_on>2025-05-05 07:25:30</sys_created_on>
         <sys_id>dc9d10020c19a6106d741c6c461b736b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>CPA | Onboarding App</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CPA Onboarding Workspace</sys_name>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sys_ux_page_registry_dc9d10020c19a6106d741c6c461b736b</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-05 07:37:00</sys_updated_on>
-        <title>CPA | Onboarding App</title>
+        <sys_updated_on>2025-07-07 10:37:14</sys_updated_on>
+        <title>CPA Onboarding Workspace</title>
     </sys_ux_page_registry>
 </record_update>

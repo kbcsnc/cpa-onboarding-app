@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>RECORD_SRP_UI_CTRL#SET_COMPOSE_VISIBILITY_RELAY_839a199997aa2650fc1cf4ef9153afdf</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Form Controller [Activity stream] Set compose visibility Relay (Incident Overview)</label>
+        <props>[
+    {
+        "defaultValue": false,
+        "description": "Adjust the layout to not include the space reserved for the compose component",
+        "fieldType": "boolean",
+        "label": "Hide compose section",
+        "name": "isEmpty",
+        "type": "boolean",
+        "valueType": "boolean"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Adjust the layout to not include the space reserved for the compose component",
+  "comment" : ""
+}, {
+  "message" : "Hide compose section",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:19</sys_created_on>
+        <sys_id>00aa1d9997aa2650fc1cf4ef9153affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Form Controller [Activity stream] Set compose visibility Relay (Incident Overview)</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_event_00aa1d9997aa2650fc1cf4ef9153affe</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=00aa1d9997aa2650fc1cf4ef9153affe"/>
+</record_update>

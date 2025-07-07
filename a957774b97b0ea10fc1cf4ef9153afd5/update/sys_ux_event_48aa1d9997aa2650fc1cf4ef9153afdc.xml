@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>RECORD_SRP_UI_CTRL#COMPLETE_EMAIL_ACTION_RELAY_839a199997aa2650fc1cf4ef9153afdf</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Form Controller [Activity stream] Complete email action Relay (Incident Overview)</label>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": "Why was the action completed (sent, cancelled)",
+        "fieldType": "string",
+        "label": "Reason",
+        "name": "reason",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "null",
+        "description": "New email action that should be passed down to compose",
+        "fieldType": "json",
+        "label": "New email action",
+        "name": "newEmailAction",
+        "type": "json",
+        "valueType": "object"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "New email action",
+  "comment" : ""
+}, {
+  "message" : "New email action that should be passed down to compose",
+  "comment" : ""
+}, {
+  "message" : "Reason",
+  "comment" : ""
+}, {
+  "message" : "Why was the action completed (sent, cancelled)",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:19</sys_created_on>
+        <sys_id>48aa1d9997aa2650fc1cf4ef9153afdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Form Controller [Activity stream] Complete email action Relay (Incident Overview)</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_event_48aa1d9997aa2650fc1cf4ef9153afdc</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=48aa1d9997aa2650fc1cf4ef9153afdc"/>
+</record_update>

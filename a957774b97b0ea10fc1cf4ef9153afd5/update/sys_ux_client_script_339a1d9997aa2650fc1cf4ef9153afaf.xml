@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Incident Overview SNC copy">839a199997aa2650fc1cf4ef9153afdf</macroponent>
+        <name>Handle Resolution Section</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Expand Resolution"
+    },
+    {
+        "message": "Collapse Resolution"
+    }
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const overviewIcons = {
+        expand: 'chevron-down-outline',
+        collapse: 'chevron-up-outline'
+    };
+
+    const toggleResolution = async () => {
+        const isExpanded = api.state.sectionConfig.resolution.expanded;
+        const toggleIcon = isExpanded ? overviewIcons.expand : overviewIcons.collapse;
+        const toggleTooltipText = isExpanded ? await helpers.translate("Expand Resolution") : await helpers.translate("Collapse Resolution");
+        let sectionConfigObject = {
+            ...api.state.sectionConfig
+        };
+        sectionConfigObject.resolution = {
+            ...api.state.sectionConfig.resolution,
+            toggleIcon: toggleIcon,
+            toggleTooltipText: toggleTooltipText,
+            expanded: !isExpanded
+        };
+        api.setState('sectionConfig', sectionConfigObject);
+    };
+
+    toggleResolution();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:18</sys_created_on>
+        <sys_id>339a1d9997aa2650fc1cf4ef9153afaf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Handle Resolution Section</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_client_script_339a1d9997aa2650fc1cf4ef9153afaf</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:18</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

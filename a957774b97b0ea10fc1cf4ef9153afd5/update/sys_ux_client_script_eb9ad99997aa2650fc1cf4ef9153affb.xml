@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Incident Overview SNC copy">839a199997aa2650fc1cf4ef9153afdf</macroponent>
+        <name>affected_ci_card_container/configAria</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Affected CIs count {0}, press enter to load list"
+    }
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    const ariaProps = {
+      "button": {
+        "aria-label": helpers.translateSync("Affected CIs count {0}, press enter to load list", api.state.aggregatedCounts.affected_ci_count || 0)
+      }
+    };
+    return ariaProps;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>kb.cheung</sys_created_by>
+        <sys_created_on>2025-07-04 07:15:17</sys_created_on>
+        <sys_id>eb9ad99997aa2650fc1cf4ef9153affb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>affected_ci_card_container/configAria</sys_name>
+        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_ux_client_script_eb9ad99997aa2650fc1cf4ef9153affb</sys_update_name>
+        <sys_updated_by>kb.cheung</sys_updated_by>
+        <sys_updated_on>2025-07-04 07:15:17</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

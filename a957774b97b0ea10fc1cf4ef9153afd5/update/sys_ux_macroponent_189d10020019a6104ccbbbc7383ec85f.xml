@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -637,6 +637,20 @@
                                     "code": null,
                                     "comment": "",
                                     "message": "Record History"
+                                }
+                            },
+                            "order": 200,
+                            "type": "local"
+                        },
+                        {
+                            "icon": null,
+                            "id": "overview",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Overview"
                                 }
                             },
                             "order": 300,
@@ -1420,11 +1434,204 @@
                                     "overflow": "hidden",
                                     "width": "100%"
                                 }
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "overview",
+                                "elementLabel": "Overview",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "name": "Overview",
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "14e568b1f6d7c7e71aebd473524db407",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "wds_ai_summary_1",
+                                            "elementLabel": "WDS AI Summary 1",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "eoSIqfOffDUdBeeddHgMkcKMiicrA",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "x_snc_wds_ais.SNC_WDS_AIS#ACTION1_CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "x_snc_wds_ais.SNC_WDS_AIS#ACTION1_CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "clientTransformScript": "",
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": {
+                                                                "dataBrokerId": "c46a6f2d87be021036768407dabb35af",
+                                                                "operationName": "EXECUTE",
+                                                                "parentResourceId": "get_ai_summary_for_record_1",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "sysId": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "sysId"
+                                                                                ],
+                                                                                "category": "props"
+                                                                            },
+                                                                            "type": "CONTEXT_BINDING"
+                                                                        },
+                                                                        "table": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "x_snc_cpa_onboar_0_onboard_req"
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                }
+                                                            },
+                                                            "targetId": "NtTTYPffaaBaaxoeeddJMFoulxuqRW",
+                                                            "type": "DATABROKER_OP"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "action1Text": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Summarize"
+                                                },
+                                                "action2Text": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Share to work notes"
+                                                },
+                                                "cardTitle": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "initial": "Onboarding request summary by Now Assist",
+                                                        "loaded": "Onboarding request summarized by Now Assist",
+                                                        "loading": "Now Assist is loading your summary"
+                                                    }
+                                                },
+                                                "footerText": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Be sure to check AI-generated summaries for accuracy."
+                                                },
+                                                "result": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "html"
+                                                        ]
+                                                    },
+                                                    "type": "STATE_BINDING"
+                                                },
+                                                "updatedOn": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "updatedOn"
+                                                        ]
+                                                    },
+                                                    "type": "STATE_BINDING"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "wds_ai_summary_1",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column",
+                                                "min-height": "300px",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "overview",
+                                "styles": null
                             }
                         ],
                         "layout": null
                     },
                     "propertyValues": {
+                        "activeRoute": {
+                            "icon": null,
+                            "id": "overview",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Overview"
+                                }
+                            },
+                            "order": 400,
+                            "type": "local"
+                        },
                         "defaultRoute": null,
                         "dynamicTabData": {
                             "type": "JSON_LITERAL",
@@ -4577,6 +4784,84 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "c46a6f2d87be021036768407dabb35af",
+            "type": "TRANSFORM"
+        },
+        "elementId": "get_ai_summary_for_record_1",
+        "elementLabel": "Get AI Summary for Record 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "uMtVyvprDUXaajjvQBQffQlipwp",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "clientTransformScript": "",
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "propName": "html",
+                                    "value": "123456"
+                                }
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "OSIffKPOzCEeeweeddDeeOKiNszbbEeedd",
+                        "type": "EVENT"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "clientTransformScript": "",
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "propName": "updatedOn",
+                                    "value": "2025-01-01 00:00:00"
+                                }
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "enFdweehhMODEhhSjjRUNoCRElaafb",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
     }
 ]</data>
         <description/>
@@ -4766,7 +5051,7 @@
         "description": null,
         "disabled": false,
         "fieldType": "string",
-        "label": "query",
+        "label": "Query",
         "mandatory": false,
         "name": "query",
         "readOnly": false,
@@ -4844,6 +5129,9 @@
   "message" : "List of record activities and input fields for posting work notes or comments",
   "comment" : ""
 }, {
+  "message" : "Overview",
+  "comment" : ""
+}, {
   "message" : "Record History",
   "comment" : ""
 }, {
@@ -4869,20 +5157,45 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
-        <state_properties>[]</state_properties>
+        <state_properties>[
+    {
+        "description": null,
+        "fieldType": "string",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "label": "newClientStateParam1",
+        "name": "html",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "description": null,
+        "fieldType": "string",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "label": "newClientStateParam1",
+        "name": "updatedOn",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <style_config/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>kb.cheung</sys_created_by>
         <sys_created_on>2025-05-05 07:25:30</sys_created_on>
         <sys_id>189d10020019a6104ccbbbc7383ec85f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
         <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sys_ux_macroponent_189d10020019a6104ccbbbc7383ec85f</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-05 07:25:30</sys_updated_on>
+        <sys_updated_on>2025-07-07 06:25:08</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=189d10020019a6104ccbbbc7383ec85f"/>
 </record_update>
