@@ -758,8 +758,12 @@
                                                     "value": "Be sure to check AI-generated summaries for accuracy."
                                                 },
                                                 "result": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
+                                                    "binding": {
+                                                        "address": [
+                                                            "summaryHTML"
+                                                        ]
+                                                    },
+                                                    "type": "STATE_BINDING"
                                                 },
                                                 "updatedOn": {
                                                     "binding": {
@@ -5399,7 +5403,7 @@
                                 "container": {
                                     "propName": {
                                         "type": "JSON_LITERAL",
-                                        "value": "html"
+                                        "value": "summaryHTML"
                                     },
                                     "value": {
                                         "binding": {
@@ -5881,14 +5885,14 @@
         <sys_created_by>kb.cheung</sys_created_by>
         <sys_created_on>2025-07-08 04:51:17</sys_created_on>
         <sys_id>1100652697226a10fc1cf4ef9153af4f</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Onboarding Request Record Page</sys_name>
         <sys_package display_value="(Agentic) CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
         <sys_scope display_value="(Agentic) CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sys_ux_macroponent_1100652697226a10fc1cf4ef9153af4f</sys_update_name>
-        <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-07-08 06:29:32</sys_updated_on>
+        <sys_updated_by>dylan.lindgren@snc</sys_updated_by>
+        <sys_updated_on>2025-07-08 07:06:08</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1100652697226a10fc1cf4ef9153af4f"/>
 </record_update>
