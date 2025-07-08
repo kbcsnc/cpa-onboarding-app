@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status">
+    <sn_nowassist_skill_config_status action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <in_mobile_active>false</in_mobile_active>
+        <in_mobile_roles/>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <skill_config display_value="Summarize a Onboarding Request">1184f8d2972ea610fc1cf4ef9153afe5</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_status</sys_class_name>
+        <sys_created_by>dylan.lindgren@snc</sys_created_by>
+        <sys_created_on>2025-07-07 07:02:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>dd84f8d2972ea610fc1cf4ef9153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="(Agentic) CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(Agentic) CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_status_dd84f8d2972ea610fc1cf4ef9153afe9</sys_update_name>
+        <sys_updated_by>dylan.lindgren@snc</sys_updated_by>
+        <sys_updated_on>2025-07-07 07:02:44</sys_updated_on>
+    </sn_nowassist_skill_config_status>
+</record_update>

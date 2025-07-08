@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_cpa_onboar_0.RecordSummaryHandlers</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Implements extension point x_snc_wds_ais.RecordSummaryHandlers</description>
+        <mobile_callable>false</mobile_callable>
+        <name>RecordSummaryHandlers</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[/**
+* A record summary and relevant metadata about it
+* @typedef {Object} SummaryReturnObject
+* @property {String} html - The HTML content of the summary
+* @property {String} updatedOn - When the summary was generated
+*/
+
+var DemoSummaryHandler = Class.create();
+DemoSummaryHandler.prototype = {
+	initialize: function () { },
+
+	/**
+	 * Called by the "Get AI Summary for Record" data resource to check whether 
+	 * this script include can provide a summary for the specified table.
+	 * 
+	 * @param {String} tableName The table name to check
+	 * @returns {Boolean} Whether this script include handles it or not
+	 */
+	handles: function (tableName) {
+		return tableName === 'x_snc_cpa_onboar_0_onboard_req';
+	},
+
+	/**
+	 * Called by the "Get AI Summary for Record" data resource to actually get
+	 * the AI summary. Within this method, call out to a custom Now Assist skill
+	 * to obtain a summary, and update 
+	 * 
+	 * @param {String} tableName the table of the record to summarize
+	 * @param {String} sysId the sys ID of the record to summarize
+	 * @returns {SummaryReturnObject} The record summary
+	 */
+	getSummaryFor: function (tableName, sysId) {
+
+		let summaryResultHTML = "";
+
+		var request = {
+			executionRequests: [{
+				payload: {
+					onboardingRequest: {
+						tableName: tableName,
+						sysId: sysId,
+						queryString: ''
+					}
+				},
+				capabilityId: 'c984b4d2972ea610fc1cf4ef9153af9b',
+				meta: {
+					skillConfigId: '1184f8d2972ea610fc1cf4ef9153afe5'
+				}
+			}],
+			mode: 'sync'
+		};
+
+		try {
+			var output = sn_one_extend.OneExtendUtil.execute(request)['capabilities'][request.executionRequests[0].capabilityId]['response'];
+			summaryResultHTML = JSON.parse(output).model_output;
+		} catch (e) {
+			gs.error(e);
+			summaryResultHTML = 'Something went wrong while executing the skill.';
+		}
+
+		return {
+			html: summaryResultHTML,
+			updatedOn: new GlideDateTime().getDisplayValue()
+		};
+	},
+
+	type: 'DemoSummaryHandler'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dylan.lindgren@snc</sys_created_by>
+        <sys_created_on>2025-07-07 06:35:21</sys_created_on>
+        <sys_id>733ee0d6476ee610873506f1d16d43e7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>RecordSummaryHandlers</sys_name>
+        <sys_package display_value="(Agentic) CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(Agentic) CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_script_include_733ee0d6476ee610873506f1d16d43e7</sys_update_name>
+        <sys_updated_by>dylan.lindgren@snc</sys_updated_by>
+        <sys_updated_on>2025-07-07 07:06:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

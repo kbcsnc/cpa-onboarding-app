@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_strategy_mapping">
+    <sys_gen_ai_strategy_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <feature display_value="Summarize a Onboarding Request">c584b4d2972ea610fc1cf4ef9153af9f</feature>
+        <strategy>CAPABILITY_EXECUTION</strategy>
+        <sys_class_name>sys_gen_ai_strategy_mapping</sys_class_name>
+        <sys_created_by>dylan.lindgren@snc</sys_created_by>
+        <sys_created_on>2025-07-07 07:02:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d84b4d2972ea610fc1cf4ef9153afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAPABILITY_EXECUTION</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="(Agentic) CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(Agentic) CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_update_name>sys_gen_ai_strategy_mapping_4d84b4d2972ea610fc1cf4ef9153afa2</sys_update_name>
+        <sys_updated_by>dylan.lindgren@snc</sys_updated_by>
+        <sys_updated_on>2025-07-07 07:02:44</sys_updated_on>
+    </sys_gen_ai_strategy_mapping>
+</record_update>

@@ -4,11 +4,11 @@
         <app_config display_value="CPA | Onboarding Application App Config">909d1002a419a610189d689e18050b6b</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <event_mappings/>
-        <macroponent display_value="Onboarding Request Record Page (OLD)">ea9d94029719a610fc1cf4ef9153afa1</macroponent>
+        <event_mappings>[]</event_mappings>
+        <macroponent display_value="Onboarding Request Record Page">1100652697226a10fc1cf4ef9153af4f</macroponent>
         <macroponent_config/>
-        <name>Onboarding Request Record Page (OLD)</name>
-        <order>50</order>
+        <name>Onboarding Request Record Page</name>
+        <order>20</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
@@ -16,19 +16,19 @@
         <screen_type display_value="Record">9c9d1002ff19a610957e69a616221c62</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>kb.cheung</sys_created_by>
-        <sys_created_on>2025-05-05 07:25:40</sys_created_on>
+        <sys_created_on>2025-07-08 04:51:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>369d94029719a610fc1cf4ef9153afa9</sys_id>
+        <sys_id>2100652697226a10fc1cf4ef9153af65</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Onboarding Request Record Page (OLD)</sys_name>
+        <sys_name>Onboarding Request Record Page</sys_name>
         <sys_overrides/>
         <sys_package display_value="(Agentic) CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
         <sys_scope display_value="(Agentic) CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
-        <sys_update_name>sys_ux_screen_369d94029719a610fc1cf4ef9153afa9</sys_update_name>
+        <sys_update_name>sys_ux_screen_2100652697226a10fc1cf4ef9153af65</sys_update_name>
         <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-07-08 04:56:10</sys_updated_on>
+        <sys_updated_on>2025-07-08 04:56:39</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=369d94029719a610fc1cf4ef9153afa9"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2100652697226a10fc1cf4ef9153af65"/>
 </record_update>

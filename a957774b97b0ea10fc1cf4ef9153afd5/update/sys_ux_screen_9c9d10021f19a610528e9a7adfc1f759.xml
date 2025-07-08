@@ -20,15 +20,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c9d10021f19a610528e9a7adfc1f759</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_overrides/>
-        <sys_package display_value="CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
+        <sys_package display_value="(Agentic) CPA | Onboarding Application" source="x_snc_cpa_onboar_0">a957774b97b0ea10fc1cf4ef9153afd5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
+        <sys_scope display_value="(Agentic) CPA | Onboarding Application">a957774b97b0ea10fc1cf4ef9153afd5</sys_scope>
         <sys_update_name>sys_ux_screen_9c9d10021f19a610528e9a7adfc1f759</sys_update_name>
-        <sys_updated_by>kb.cheung</sys_updated_by>
-        <sys_updated_on>2025-05-05 07:25:31</sys_updated_on>
+        <sys_updated_by>dylan.lindgren@snc</sys_updated_by>
+        <sys_updated_on>2025-07-07 06:51:09</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=9c9d10021f19a610528e9a7adfc1f759"/>
 </record_update>
